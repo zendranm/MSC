@@ -1,0 +1,40 @@
+\documentclass[12pt, en, oneside, openany, draft]{mgr}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%Additional
+\usepackage[nottoc,notlot,notlof]{tocbibind} %Add bibliography to contents
+\usepackage{hyperref} %Add links to contents
+\hypersetup{colorlinks, citecolor=black, filecolor=black, linkcolor=black, urlcolor=black} %Links styling
+\usepackage{indentfirst} %Indentation in first paragraphs
+
+% Title page
+\title{Deepfake analisys}
+\engtitle{Deepfake analiza}
+\author{Michał Zendran}
+\supervisor{Dr inż. Andrzej Rusiecki}
+\field{Computer Science}
+\specialisation{Internet Engineering (INE)}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\chapter{Introduction}	
+\input{./Sections/Introduction.tex}
+
+\chapter{Implementation}
+\input{./Sections/Implementation.tex}
+
+\chapter{ANN models}
+
+\chapter{Results}
+
+\chapter{Conclusion}
+
+\listoffigures
+\listoftables
+
+\end{document}
