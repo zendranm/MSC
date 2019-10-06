@@ -1,0 +1,12 @@
+{
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "C:\\Users\\michal\\Anaconda3\\Lib\\site-packages\\autopep8.py",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "60",
+        "--in-place",
+        "--aggressive",
+        "--aggressive"
+    ],
+    "editor.formatOnSave": true,
+}
