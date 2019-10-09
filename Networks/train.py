@@ -16,7 +16,7 @@ data_dir = 'C:/Users/michal/Desktop/data/src/'
 image_count = len([name for name in os.listdir(data_dir)])
 print(image_count)
 BUFFER_SIZE = 60000
-BATCH_SIZE = 256
+BATCH_SIZE = 27 # 28 is already too mach for GPu but 20 works with no error, 27 works but error of run out of memory
 STEPS_PER_EPOCH = np.ceil(image_count/BATCH_SIZE)
 
 # Data loading and preparation
@@ -28,24 +28,18 @@ for myFile in files:
 
 tmp = np.array(train_images)
 train_images=tmp
-print('train_images shape:', np.array(train_images).shape)
 
 # Batch and shuffle the data
 train_images = train_images.reshape(train_images.shape[0], 224, 224, 3).astype('float32')
 
-
-
 train_images = (train_images - 127.5) / 127.5 # Normalize the images to [-1, 1]
-print(train_images)
 train_dataset = tf.data.Dataset.from_tensor_slices(train_images).shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
-
 
 print("shuffle done")
 
-# Generator model
 def make_generator_model():
     model = tf.keras.Sequential()
-    model.add(tf.keras.layers.Dense(7*7*256, use_bias=False, input_shape=(100,)))
+    model.add(tf.keras.layers.Dense(56*56*256, use_bias=False, input_shape=(100,)))
     model.add(tf.keras.layers.BatchNormalization())
     model.add(tf.keras.layers.LeakyReLU())
 
@@ -63,18 +57,18 @@ def make_generator_model():
     model.add(tf.keras.layers.LeakyReLU())
 
     model.add(tf.keras.layers.Conv2DTranspose(3, (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh'))
-    print(model.output_shape)
     assert model.output_shape == (None, 224, 224, 3)
 
     return model
 
 generator = make_generator_model()
-print("generator done")
 
 noise = tf.random.normal([1, 100])
-generated_image = generator(noise, training=False)
 
-plt.imshow(generated_image[0, :, :, 0], cmap='gray')
+generated_image = generator(noise, training=False)
+plt.imshow(generated_image[0, :, :, 0], cmap='hsv')
+# plt.show() # Uncoment to show
+print("generator done")
 
 # Discriminator model
 def make_discriminator_model():
@@ -90,12 +84,12 @@ def make_discriminator_model():
 
     model.add(tf.keras.layers.Flatten())
     model.add(tf.keras.layers.Dense(1))
-
     return model
 
 discriminator = make_discriminator_model()
 decision = discriminator(generated_image)
 print (decision)
+print('discriminator done')
 
 cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
 
@@ -173,6 +167,8 @@ def train(dataset, epochs):
                            epochs,
                            seed)
 
+
+
 def generate_and_save_images(model, epoch, test_input):
   # Notice `training` is set to False.
   # This is so all layers run in inference mode (batchnorm).
@@ -182,11 +178,12 @@ def generate_and_save_images(model, epoch, test_input):
 
   for i in range(predictions.shape[0]):
       plt.subplot(4, 4, i+1)
-      plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='gray')
+      plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='hsv')
       plt.axis('off')
 
-  plt.savefig('image_at_epoch_{:04d}.png'.format(epoch))
-  plt.show()
+  plt.savefig('./tmpfigs/image_at_epoch_{:04d}.png'.format(epoch))
+  # plt.show()
+
 
 train(train_dataset, EPOCHS)
 print('All Done')
