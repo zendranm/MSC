@@ -4,3 +4,5 @@
 4. Ile klatek potrzebuję? Tylko z 3 folderów mam aż 3100 klatek.
 5. Jak uzyskać końcowe filmiki w wysokiej rozdzielczości? Uczyć na wysokich rozdzielczościach klatek?
 6. Jakaś sugerowana literatura?
+
+Karta: https://www.geforce.com/hardware/notebook-gpus/geforce-gtx-960m/specifications
