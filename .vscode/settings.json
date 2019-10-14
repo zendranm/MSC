@@ -9,4 +9,7 @@
         "--aggressive"
     ],
     "editor.formatOnSave": true,
+    "python.autoComplete.extraPaths": [
+        "./Networks"
+    ],
 }
