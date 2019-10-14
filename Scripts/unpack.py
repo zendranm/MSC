@@ -64,4 +64,6 @@ prepare_directory(src_person_B)
 process_videos(root_person_A, root_folder + 'src_person_A/', 20)
 process_videos(root_person_B, root_folder + 'src_person_B/', 20)
 
+# Split each person in train and test dir
+
 # Here cut only face out of every frame
