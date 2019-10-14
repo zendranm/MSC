@@ -4,17 +4,20 @@ import cv2
 
 # Constants
 root_folder = 'C:/Users/michal/Desktop/data/'
-src_folder = root_folder + 'id02019/'
+root_person_A = root_folder + 'root_person_A/'
+root_person_B = root_folder + 'root_person_B/'
+src_person_A = root_folder + 'src_person_A/'
+src_person_B = root_folder + 'src_person_B/'
 
 # Functions
-def prepare_directory(base_folder, new_folder_name):
-    if os.path.isdir(base_folder + new_folder_name) == True:
+def prepare_directory(new_folder):
+    if os.path.isdir(new_folder) == True:
         print('exist')
-        shutil.rmtree(base_folder + new_folder_name)
+        shutil.rmtree(new_folder)
     else:
         print('no exists')
 
-    os.mkdir(base_folder + 'src/')
+    os.mkdir(new_folder)
 
 def extract_and_save_frames_from_video(video_path, dest_path, counter):
     vidcap = cv2.VideoCapture(video_path)
@@ -56,7 +59,9 @@ def process_videos(old_src_folder, new_src_folder, frames_to_skip):
             file_counter += 1
         folder_counter += 1
 
-prepare_directory(root_folder, 'src/')
-process_videos(src_folder, root_folder + 'src/', 20)
+prepare_directory(src_person_A)
+prepare_directory(src_person_B)
+process_videos(root_person_A, root_folder + 'src_person_A/', 20)
+process_videos(root_person_B, root_folder + 'src_person_B/', 20)
 
 # Here cut only face out of every frame
