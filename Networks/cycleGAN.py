@@ -15,8 +15,9 @@ test_person_B = data_dir + 'test_B/'
 EPOCHS = 40
 BUFFER_SIZE = 1000
 BATCH_SIZE = 1
-IMG_WIDTH = 256
 IMG_HEIGHT = 256
+IMG_WIDTH = 256
+IMG_COLOR = 3
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE # Whats that???
 
@@ -63,32 +64,50 @@ test_B = tf.data.Dataset.from_tensor_slices(test_B).map(normalize, num_parallel_
 from Generators.generator import make_generator_model
 from Discriminators.discriminator import make_discriminator_model
 
-generator_g = make_generator_model()
-generator_f = make_generator_model()
+generator_g = make_generator_model(IMG_HEIGHT, IMG_WIDTH, IMG_COLOR)
+generator_f = make_generator_model(IMG_HEIGHT, IMG_WIDTH, IMG_COLOR)
 discriminator_x = make_discriminator_model()
 discriminator_y = make_discriminator_model()
 
 # Show generated samples
-noise = tf.random.normal([1, 100])
-sample_A = next(iter(train_A))
-sample_B = next(iter(train_B))
+noise = tf.random.normal([IMG_HEIGHT, IMG_WIDTH, IMG_COLOR])
 
-to_B = generator_g(sample_A)
-to_A = generator_f(noise)
-plt.figure(figsize=(8, 8))
-contrast = 8
+# plt.subplot(111)
+# plt.title('Noise')
+# plt.imshow(noise)
+# plt.show()
 
-imgs = [sample_A, to_B, sample_B, to_A]
-title = ['A', 'To B', 'B', 'To A']
+to_B = generator_g(noise)
 
-for i in range(len(imgs)):
-  plt.subplot(2, 2, i+1)
-  plt.title(title[i])
-  if i % 2 == 0:
-    plt.imshow(imgs[i][0] * 0.5 + 0.5)
-  else:
-    plt.imshow(imgs[i][0] * 0.5 * contrast + 0.5)
+print(to_B.shape)
+
+plt.subplot(121)
+plt.title('Noise')
+plt.imshow(noise)
+plt.subplot(122)
+plt.title('to_B')
+plt.imshow(to_B)
 plt.show()
+
+# sample_A = next(iter(train_A))
+# sample_B = next(iter(train_B))
+
+# to_B = generator_g(sample_A)
+# to_A = generator_f(noise)
+# plt.figure(figsize=(8, 8))
+# contrast = 8
+
+# imgs = [sample_A, to_B, sample_B, to_A]
+# title = ['A', 'To B', 'B', 'To A']
+
+# for i in range(len(imgs)):
+#   plt.subplot(2, 2, i+1)
+#   plt.title(title[i])
+#   if i % 2 == 0:
+#     plt.imshow(imgs[i][0] * 0.5 + 0.5)
+#   else:
+#     plt.imshow(imgs[i][0] * 0.5 * contrast + 0.5)
+# plt.show()
 
 # Loss function
 
