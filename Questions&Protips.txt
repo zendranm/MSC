@@ -6,3 +6,6 @@
 6. Jakaś sugerowana literatura?
 
 Karta: https://www.geforce.com/hardware/notebook-gpus/geforce-gtx-960m/specifications
+
+Sieci:
+1.padding ma wpływ na wymiar obrazka

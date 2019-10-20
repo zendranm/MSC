@@ -81,7 +81,7 @@ plt.title('Noise')
 plt.imshow(noise)
 plt.subplot(122)
 plt.title('to_B')
-plt.imshow(to_B)
+plt.imshow(to_B  * 0.5 * 108 + 0.5)
 plt.show()
 
 # sample_A = next(iter(train_A))
