@@ -15,8 +15,8 @@ test_person_B = data_dir + 'test_B/'
 EPOCHS = 40
 BUFFER_SIZE = 1000
 BATCH_SIZE = 1
-IMG_HEIGHT = 256
-IMG_WIDTH = 256
+IMG_HEIGHT = 224
+IMG_WIDTH = 224
 IMG_COLOR = 3
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE # Whats that???
@@ -64,22 +64,17 @@ test_B = tf.data.Dataset.from_tensor_slices(test_B).map(normalize, num_parallel_
 from Generators.generator import make_generator_model
 from Discriminators.discriminator import make_discriminator_model
 
-generator_g = make_generator_model(IMG_HEIGHT, IMG_WIDTH, IMG_COLOR)
-generator_f = make_generator_model(IMG_HEIGHT, IMG_WIDTH, IMG_COLOR)
-discriminator_x = make_discriminator_model()
-discriminator_y = make_discriminator_model()
+generator_g = make_generator_model()
+# generator_f = make_generator_model()
+# discriminator_x = make_discriminator_model()
+# discriminator_y = make_discriminator_model()
 
 # Show generated samples
 noise = tf.random.normal([IMG_HEIGHT, IMG_WIDTH, IMG_COLOR])
+tmp=tf.expand_dims(noise, 0)
 
-# plt.subplot(111)
-# plt.title('Noise')
-# plt.imshow(noise)
-# plt.show()
-
-to_B = generator_g(noise)
-
-print(to_B.shape)
+tmp2 = generator_g(tmp)
+to_B = tf.squeeze(tmp2, 0)
 
 plt.subplot(121)
 plt.title('Noise')
