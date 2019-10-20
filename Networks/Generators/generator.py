@@ -1,13 +1,15 @@
 import tensorflow as tf
 
-def residual_block():
-    model = tf.keras.Sequential()
+def residual_block(model):
     model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
     model.add(tf.keras.layers.BatchNormalization())
     model.add(tf.keras.layers.LeakyReLU())
     model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
     model.add(tf.keras.layers.BatchNormalization())
     model.add(tf.keras.layers.LeakyReLU())
+    print(model.output_shape)
+
+    return model
 
 def make_generator_model():
     model = tf.keras.Sequential()
@@ -29,48 +31,12 @@ def make_generator_model():
 
     # Transformer
     print("Transformer")
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    model.add(tf.keras.layers.Conv2D(256, kernel_size=(3, 3), strides=1, padding='same', use_bias=False))
-    model.add(tf.keras.layers.BatchNormalization())
-    model.add(tf.keras.layers.LeakyReLU())
-    print(model.output_shape)
+    model = residual_block(model)
+    model = residual_block(model)
+    model = residual_block(model)
+    model = residual_block(model)
+    model = residual_block(model)
+    model = residual_block(model)
 
     # Decoder
     print("Decoder")
@@ -86,5 +52,7 @@ def make_generator_model():
     model.add(tf.keras.layers.BatchNormalization())
     model.add(tf.keras.layers.LeakyReLU())
     print(model.output_shape)
+
+    # model.summary()
 
     return model

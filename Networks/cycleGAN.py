@@ -66,7 +66,7 @@ from Discriminators.discriminator import make_discriminator_model
 
 generator_g = make_generator_model()
 # generator_f = make_generator_model()
-# discriminator_x = make_discriminator_model()
+discriminator_x = make_discriminator_model()
 # discriminator_y = make_discriminator_model()
 
 # Show generated samples
