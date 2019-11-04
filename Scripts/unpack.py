@@ -3,7 +3,7 @@ import shutil
 import cv2
 
 # Constants
-root_folder = 'C:/Users/michal/Desktop/data/'
+root_folder = 'C:/Users/michal/Desktop/data2/'
 root_person_A = root_folder + 'root_person_A/'
 root_person_B = root_folder + 'root_person_B/'
 src_person_A = root_folder + 'src_person_A/'
@@ -12,18 +12,32 @@ src_person_B = root_folder + 'src_person_B/'
 # Functions
 def prepare_directory(new_folder):
     if os.path.isdir(new_folder) == True:
-        print('exist')
+        print('Directory: ' + new_folder + ' exists')
         shutil.rmtree(new_folder)
     else:
-        print('no exists')
+        print('Creating directory: ' + new_folder)
 
     os.mkdir(new_folder)
+
+def cut_face_out_of_frame(frame):
+    face_cascade = cv2.CascadeClassifier('C:/Users/michal/Desktop/MSC/Scripts/haarcascade_frontalface_default.xml')
+    faces = face_cascade.detectMultiScale(frame, 1.05, 5)
+
+    if (len(faces) == 0):
+        return []
+    else:
+        for (x, y, w, h) in faces:
+            cropped_image = frame[y:y+h, x:x+w]
+            # Przeskalować do jednakowych wymiarów
+            return cropped_image
 
 def extract_and_save_frames_from_video(video_path, dest_path, counter):
     vidcap = cv2.VideoCapture(video_path)
     success, image = vidcap.read()
     while success:
-        cv2.imwrite(dest_path + "frame%d.png" % counter, image)
+        cropped_image = cut_face_out_of_frame(image)
+        if(len(cropped_image) != 0):
+            cv2.imwrite(dest_path + "frame%d.png" % counter, cropped_image)
         success,image = vidcap.read()
         counter += 1
     vidcap.release()
@@ -34,7 +48,9 @@ def extract_and_save_every_nth_frame_from_video(video_path, dest_path, counter, 
     vidcap = cv2.VideoCapture(video_path)
     success, image = vidcap.read()
     while success:
-        cv2.imwrite(dest_path + "frame%d.png" % counter, image)
+        cropped_image = cut_face_out_of_frame(image)
+        if(len(cropped_image) != 0):
+            cv2.imwrite(dest_path + "frame%d.png" % counter, cropped_image)
         frames_to_skip += nth
         vidcap.set(1, frames_to_skip)
         success,image = vidcap.read()
@@ -63,7 +79,3 @@ prepare_directory(src_person_A)
 prepare_directory(src_person_B)
 process_videos(root_person_A, root_folder + 'src_person_A/', 20)
 process_videos(root_person_B, root_folder + 'src_person_B/', 20)
-
-# Split each person in train and test dir
-
-# Here cut only face out of every frame
