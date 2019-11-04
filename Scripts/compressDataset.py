@@ -10,12 +10,8 @@ test_person_A = data_dir + 'test_A/'
 train_person_B = data_dir + 'train_B/'
 test_person_B = data_dir + 'test_B/'
 
-EPOCHS = 3
-BUFFER_SIZE = 1000
-BATCH_SIZE = 1
 IMG_HEIGHT = 224
 IMG_WIDTH = 224
-IMG_COLOR = 3
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE # Whats that???
 
@@ -29,21 +25,10 @@ def loadImages(src_dir, size=(IMG_HEIGHT, IMG_WIDTH)):
         images.append(pixels)
     return np.asarray(images)
 
-# Preprocess data
-def normalize(image):
-  image = tf.cast(image, tf.float32)
-  image = (image - 127.5) / 127.5
-  return image
-
 train_A = loadImages(train_person_A)
 test_A = loadImages(test_person_A)
 train_B = loadImages(train_person_B)
 test_B = loadImages(test_person_B)
-
-# train_A = tf.data.Dataset.from_tensor_slices(train_A).map(normalize, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
-# test_A = tf.data.Dataset.from_tensor_slices(test_A).map(normalize, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
-# train_B = tf.data.Dataset.from_tensor_slices(train_B).map(normalize, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
-# test_B = tf.data.Dataset.from_tensor_slices(test_B).map(normalize, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
 
 # load dataset A
 dataA1 = train_A
