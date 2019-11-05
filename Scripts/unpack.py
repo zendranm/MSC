@@ -9,6 +9,10 @@ root_person_B = root_folder + 'root_person_B/'
 src_person_A = root_folder + 'src_person_A/'
 src_person_B = root_folder + 'src_person_B/'
 
+face_cascade = cv2.CascadeClassifier('C:/Users/michal/Desktop/MSC/Scripts/haarcascade_frontalface_default.xml')
+
+frames_to_skip = 20
+
 # Functions
 def prepare_directory(new_folder):
     if os.path.isdir(new_folder) == True:
@@ -20,26 +24,29 @@ def prepare_directory(new_folder):
     os.mkdir(new_folder)
 
 def cut_face_out_of_frame(frame):
-    face_cascade = cv2.CascadeClassifier('C:/Users/michal/Desktop/MSC/Scripts/haarcascade_frontalface_default.xml')
     faces = face_cascade.detectMultiScale(frame, 1.05, 5)
+    detected_faces = list()
 
     if (len(faces) == 0):
         return []
     else:
         for (x, y, w, h) in faces:
             cropped_image = frame[y:y+h, x:x+w]
-            # Przeskalować do jednakowych wymiarów
-            return cropped_image
+            resized_img = cv2.resize(cropped_image, (158, 158))
+            detected_faces.append(resized_img)
+    
+    return detected_faces
 
 def extract_and_save_frames_from_video(video_path, dest_path, counter):
     vidcap = cv2.VideoCapture(video_path)
     success, image = vidcap.read()
     while success:
-        cropped_image = cut_face_out_of_frame(image)
-        if(len(cropped_image) != 0):
-            cv2.imwrite(dest_path + "frame%d.png" % counter, cropped_image)
+        cropped_images = cut_face_out_of_frame(image)
+        if(len(cropped_images) != 0):
+            for face in cropped_images:
+                cv2.imwrite(dest_path + "frame%d.png" % counter, face)
+                counter += 1
         success,image = vidcap.read()
-        counter += 1
     vidcap.release()
     return counter
 
@@ -49,12 +56,14 @@ def extract_and_save_every_nth_frame_from_video(video_path, dest_path, counter, 
     success, image = vidcap.read()
     while success:
         cropped_image = cut_face_out_of_frame(image)
-        if(len(cropped_image) != 0):
-            cv2.imwrite(dest_path + "frame%d.png" % counter, cropped_image)
+        cropped_images = cut_face_out_of_frame(image)
+        if(len(cropped_images) != 0):
+            for face in cropped_images:
+                cv2.imwrite(dest_path + "frame%d.png" % counter, face)
+                counter += 1
         frames_to_skip += nth
         vidcap.set(1, frames_to_skip)
         success,image = vidcap.read()
-        counter += 1
     vidcap.release()
     return counter
 
@@ -77,5 +86,6 @@ def process_videos(old_src_folder, new_src_folder, frames_to_skip):
 
 prepare_directory(src_person_A)
 prepare_directory(src_person_B)
-process_videos(root_person_A, root_folder + 'src_person_A/', 20)
-process_videos(root_person_B, root_folder + 'src_person_B/', 20)
+process_videos(root_person_A, root_folder + 'src_person_A/', frames_to_skip)
+process_videos(root_person_B, root_folder + 'src_person_B/', frames_to_skip)
+print("Proccessing done")
