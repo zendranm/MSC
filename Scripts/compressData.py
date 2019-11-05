@@ -4,14 +4,14 @@ import numpy as np
 import glob
 
 # Constants
-data_dir = 'C:/Users/michal/Desktop/data/'
+data_dir = 'C:/Users/michal/Desktop/dataset/'
 train_person_A = data_dir + 'train_A/'
 test_person_A = data_dir + 'test_A/'
 train_person_B = data_dir + 'train_B/'
 test_person_B = data_dir + 'test_B/'
 
-IMG_HEIGHT = 224
-IMG_WIDTH = 224
+IMG_HEIGHT = 158
+IMG_WIDTH = 158
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE # Whats that???
 
