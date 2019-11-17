@@ -13,7 +13,7 @@ face_cascade = cv2.CascadeClassifier('C:/Users/michal/Desktop/MSC/Scripts/haarca
 
 frames_to_skip = 20
 
-target_frame_size = 158
+target_frame_size = 160
 
 # Functions
 def prepare_directory(new_folder):
