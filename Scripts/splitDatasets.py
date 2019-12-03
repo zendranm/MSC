@@ -4,7 +4,7 @@ import os
 import shutil
 
 # Constants
-data_dir = 'C:/Users/michal/Desktop/dataset/'
+data_dir = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr/'
 src_person_A = data_dir + 'src_person_A/'
 src_person_B = data_dir + 'src_person_B/'
 train_person_A = data_dir + 'train_A/'

@@ -4,7 +4,7 @@ import numpy as np
 import glob
 
 # Constants
-data_dir = 'C:/Users/michal/Desktop/dataset_160/'
+data_dir = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr/'
 train_person_A = data_dir + 'train_A/'
 test_person_A = data_dir + 'test_A/'
 train_person_B = data_dir + 'train_B/'
