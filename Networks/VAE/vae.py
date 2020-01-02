@@ -5,18 +5,41 @@ import tensorflow_probability as tfp
 tfd = tfp.distributions
 
 from functions import load_data
+from functions import load_images
+from functions import normalize
 from functions import make_encoder
 from functions import make_prior
 from functions import make_decoder
 from functions import plot_codes
 from functions import plot_samples
 
+EPOCHS = 3
+BUFFER_SIZE = 1000
+BATCH_SIZE = 1
+IMG_HEIGHT = 160
+IMG_WIDTH = 160
+IMG_COLOR = 3
+
+AUTOTUNE = tf.data.experimental.AUTOTUNE # Whats that???
+
 # Load and prepare data
-data_file = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr.npz'
-dataset = load_data(data_file)
-image_shape = dataset[0].shape[1:]
-print(image_shape)
-print('Loaded', dataset[0].shape, dataset[1].shape)
+data_dir = 'C:/Users/michal/Desktop/data/'
+train_person_A = data_dir + 'train_A/'
+train_person_B = data_dir + 'train_B/'
+
+train_A = load_images(train_person_A, (IMG_HEIGHT, IMG_WIDTH))
+train_A = tf.data.Dataset.from_tensor_slices(train_A).map(normalize, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(BATCH_SIZE)
+
+print("\n\n"+"-----------------------------------------")
+print(type(train_A))
+print("\n\n"+"-----------------------------------------")
+
+# data_file = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr.npz'
+# dataset = load_data(data_file)
+# trainA, trainB = dataset
+# image_shape = dataset[0].shape[1:]
+# print(image_shape)
+# print('Loaded', dataset[0].shape, dataset[1].shape)
 
 # Encoder
 make_encoder = tf.compat.v1.make_template('encoder', make_encoder)
@@ -45,14 +68,15 @@ elbo = tf.reduce_mean(likelihood - divergence)
 optimize = tf.compat.v1.train.AdamOptimizer(0.001).minimize(-elbo)
 samples = make_decoder(prior.sample(4), [160, 160, 3]).mean()
 
-with tf.compat.v1.train.MonitoredSession() as sess:
+with tf.Session() as sess:
+  sess.run(tf.global_variables_initializer())
   for epoch in range(20):
-    test_elbo, test_codes, test_samples = sess.run(
-        [elbo, code, samples], {data: dataset})
+    feed = {data: mnist.test.images.reshape([-1, 28, 28])}
+    test_elbo, test_codes, test_samples = sess.run([elbo, code, samples], feed)
     print('Epoch', epoch, 'elbo', test_elbo)
-    plot_codes(test_codes)
-    plot_samples(test_samples)
+    plot_online(epoch, test_codes, mnist.test.labels, test_samples)
     for _ in range(600):
-      sess.run(optimize, {data: dataset.train.next_batch(100)[0]})
-
+      feed = {data: mnist.train.next_batch(100)[0].reshape([-1, 28, 28])}
+      sess.run(optimize, feed)
+    print()
 print("Program finished successfully!")

@@ -2,6 +2,7 @@
 import tensorflow as tf
 import tensorflow_probability as tfp
 import numpy as np
+import glob
 
 tfd = tfp.distributions
 
@@ -12,6 +13,22 @@ def load_data(filename):
     X1 = (X1 - 127.5) / 127.5
     X2 = (X2 - 127.5) / 127.5
     return [X1, X2]
+
+# Load data
+def load_images(src_dir, size):
+    images = list()
+    files = glob.glob(src_dir + "*.PNG")
+    for filename in files:
+        pixels = tf.keras.preprocessing.image.load_img(filename, target_size=size)
+        pixels = tf.keras.preprocessing.image.img_to_array(pixels)
+        images.append(pixels)
+    return images
+
+# Preprocess data
+def normalize(image):
+  image = tf.cast(image, tf.float32)
+  image = (image - 127.5) / 127.5
+  return image
 
 # Encoder
 def make_encoder(data, code_size):
