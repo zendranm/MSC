@@ -29,8 +29,27 @@ def build_autoencoder(img_shape, code_size):
 
     return encoder, decoder
 
+def visualize(img,encoder,decoder):
+    """Draws original, encoded and decoded images"""
+    code = encoder.predict(img[None])[0]
+    reco = decoder.predict(code[None])[0]
+
+    plt.subplot(1,3,1)
+    plt.title("Original")
+    plt.imshow(np.clip(img + 0.5, 0, 1))
+
+    plt.subplot(1,3,2)
+    plt.title("Code")
+    plt.imshow(code.reshape([code.shape[-1]//2,-1]))
+
+    plt.subplot(1,3,3)
+    plt.title("Reconstructed")
+    plt.imshow(np.clip(reco + 0.5, 0, 1))
+    plt.show()
+
 npz_path = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_test.npz'
-(train_images, _), (test_images, _) = load_data(npz_path)
+# (train_images, _), (test_images, _) = load_data(npz_path)
+(_, train_images), (_, test_images) = load_data(npz_path)
 
 train_images = train_images.astype('float32') / 255.0 - 0.5
 test_images = test_images.astype('float32') / 255.0 - 0.5
@@ -39,7 +58,7 @@ test_images = test_images.astype('float32') / 255.0 - 0.5
 # show_image(test_images[0])
 
 IMG_SHAPE = train_images.shape[1:]
-encoder, decoder = build_autoencoder(IMG_SHAPE, 160)
+encoder, decoder = build_autoencoder(IMG_SHAPE, 1000)
 
 inp = tf.keras.layers.Input(IMG_SHAPE)
 code = encoder(inp)
@@ -59,24 +78,6 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
-
-def visualize(img,encoder,decoder):
-    """Draws original, encoded and decoded images"""
-    code = encoder.predict(img[None])[0]
-    reco = decoder.predict(code[None])[0]
-
-    plt.subplot(1,3,1)
-    plt.title("Original")
-    plt.imshow(np.clip(img + 0.5, 0, 1))
-
-    plt.subplot(1,3,2)
-    plt.title("Code")
-    plt.imshow(code.reshape([code.shape[-1]//2,-1]))
-
-    plt.subplot(1,3,3)
-    plt.title("Reconstructed")
-    plt.imshow(np.clip(img + 0.5, 0, 1))
-    plt.show()
 
 for i in range(2):
     img = test_images[i]

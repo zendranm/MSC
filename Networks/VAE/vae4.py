@@ -9,14 +9,14 @@ from IPython import display
 
 # tfd = tfp.distributions
 
-from functions import load_data
-from functions import load_images
-from functions import normalize
-from functions import make_encoder
-from functions import make_prior
-from functions import make_decoder
-from functions import plot_codes
-from functions import plot_samples
+from functions_old import load_data
+from functions_old import load_images
+from functions_old import normalize
+from functions_old import make_encoder
+from functions_old import make_prior
+from functions_old import make_decoder
+from functions_old import plot_codes
+from functions_old import plot_samples
 
 npz_path = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_test.npz'
 (train_images, _), (test_images, _) = load_data(npz_path)
