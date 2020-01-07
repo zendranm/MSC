@@ -8,11 +8,10 @@ tfd = tfp.distributions
 
 # Load data
 def load_data(filename):
-    data = np.load(filename)
-    X1, X2 = data['arr_0'], data['arr_1']
-    X1 = (X1 - 127.5) / 127.5
-    X2 = (X2 - 127.5) / 127.5
-    return [X1, X2]
+    with np.load(filename) as f:
+        x_train, x_test = f['arr_0'], f['arr_1']
+        y_train, y_test = f['arr_2'], f['arr_3']
+        return (x_train, y_train), (x_test, y_test)
 
 # Load data
 def load_images(src_dir, size):
