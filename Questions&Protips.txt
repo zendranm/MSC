@@ -1,9 +1,13 @@
 1. Doprecyzować temat: GAN vs VAE, Analiza GAN, coś innego ... ?
-2. Czy tak wycięte twarze jak są w oryginalenj bazie się nadzadzą czy raczej dociąć je żeby była sama twarz? (raczej dociąć)
+2. Czy tak wycięte twarze jak są w oryginalenj bazie się nadzadzą czy raczej dociąć je żeby była sama twarz?
 3. Czy powinienem się martwić oświetleniem na zdjęciach?
 4. Ile klatek potrzebuję? Tylko z 3 folderów mam aż 3100 klatek.
 5. Jak uzyskać końcowe filmiki w wysokiej rozdzielczości? Uczyć na wysokich rozdzielczościach klatek?
 6. Jakaś sugerowana literatura?
+7. Czy wszystkie słowa w rozdziałach (podrozdziałach itp) powinny być z dużych liter czy tylko pierwsze słowo?
+
+2.Dociąć.
+
 
 Karta: https://www.geforce.com/hardware/notebook-gpus/geforce-gtx-960m/specifications
 

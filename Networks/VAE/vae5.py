@@ -47,7 +47,7 @@ def visualize(img,encoder,decoder):
     plt.imshow(np.clip(reco + 0.5, 0, 1))
     plt.show()
 
-npz_path = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_test.npz'
+npz_path = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_VAE.npz'
 # (train_images, _), (test_images, _) = load_data(npz_path)
 (_, train_images), (_, test_images) = load_data(npz_path)
 
