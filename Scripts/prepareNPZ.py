@@ -4,7 +4,8 @@ import numpy as np
 import glob
 
 # Constants
-data_dir = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr/'
+name = 'DiCaprioToDowneyJr_Big_VAE'
+data_dir = 'C:/Users/michal/Desktop/' + name + '/'
 train_person_A = data_dir + 'train_A/'
 test_person_A = data_dir + 'test_A/'
 train_person_B = data_dir + 'train_B/'
@@ -29,6 +30,6 @@ train_B = loadImages(train_person_B)
 test_B = loadImages(test_person_B)
 
 # save as compressed numpy array
-filename = 'AtoB.npz'
+filename = name + '.npz'
 np.savez_compressed(filename, train_A, test_A, train_B, test_B)
 print('Saved dataset: ', filename)
