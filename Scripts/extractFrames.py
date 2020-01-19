@@ -3,7 +3,7 @@ import shutil
 import cv2
 
 # Constants
-root_folder = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr/'
+root_folder = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_Big_VAE/'
 root_person_A = root_folder + 'root_person_A/'
 root_person_B = root_folder + 'root_person_B/'
 src_person_A = root_folder + 'src_person_A/'
@@ -11,9 +11,11 @@ src_person_B = root_folder + 'src_person_B/'
 
 face_cascade = cv2.CascadeClassifier('C:/Users/michal/Desktop/MSC/Scripts/haarcascade_frontalface_default.xml')
 
-frames_to_skip = 5
+frames_to_skip = 10
 
 target_frame_size = 160
+
+haar_sensibility = 1.6
 
 # Functions
 def prepare_directory(new_folder):
@@ -26,7 +28,7 @@ def prepare_directory(new_folder):
     os.mkdir(new_folder)
 
 def cut_face_out_of_frame(frame):
-    faces = face_cascade.detectMultiScale(frame, 1.2, 5)
+    faces = face_cascade.detectMultiScale(frame, haar_sensibility, 5)
     detected_faces = list()
 
     if (len(faces) == 0):
