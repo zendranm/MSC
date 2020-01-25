@@ -15,9 +15,14 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Software and Libraries}{section.4.1}% 15
 \BOOKMARK [2][-]{subsection.4.1.2}{Hardware}{section.4.1}% 16
 \BOOKMARK [1][-]{section.4.2}{Datasets}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Network learning}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.3.1}{VAE}{section.4.3}% 19
-\BOOKMARK [2][-]{subsection.4.3.2}{GAN}{section.4.3}% 20
-\BOOKMARK [2][-]{subsection.4.3.3}{CycleGAN}{section.4.3}% 21
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 22
-\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Datasets description}{section.4.2}% 18
+\BOOKMARK [2][-]{subsection.4.2.2}{Data pre-processing}{section.4.2}% 19
+\BOOKMARK [1][-]{section.4.3}{Network learning}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.3.1}{VAE}{section.4.3}% 21
+\BOOKMARK [2][-]{subsection.4.3.2}{GAN}{section.4.3}% 22
+\BOOKMARK [2][-]{subsection.4.3.3}{CycleGAN}{section.4.3}% 23
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 24
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 25
+\BOOKMARK [0][-]{chapter*.2}{Bibliography}{}% 26
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 27
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 28
