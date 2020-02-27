@@ -10,6 +10,7 @@
 9. Jak lepiej zrobić sieci? Może są za proste?
 10. Czy enkoder lepiej nauczyć dla konkretnej twarzy czy lepiej jeden ogólny dla wszystkich przypadków?
 11. Czy augmentacja typu lustrzane odbicie i lekkie obroty ma sens? Bez żadnego rozciągania oczywiście.
+12. Czy zamieścić rozdział o prawnej stronie deepfaku? Czy można używać filmikiów z YT itp?
 
 2.Dociąć.
 
