@@ -10,19 +10,19 @@
 \contentsline {section}{\numberline {3.2}Convolutional variational auto encoder}{4}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}VAE-GAN}{4}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}CycleGAN}{4}{section.3.4}% 
-\contentsline {chapter}{\numberline {4}Implementation}{5}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Technologies}{5}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Software and Libraries}{5}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Hardware}{5}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}Datasets}{5}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Datasets description}{5}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Data pre-processing}{5}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Network learning}{5}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}VAE}{5}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}GAN}{5}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}CycleGAN}{5}{subsection.4.3.3}% 
-\contentsline {chapter}{\numberline {5}Results}{6}{chapter.5}% 
-\contentsline {chapter}{\numberline {6}Conclusions}{7}{chapter.6}% 
-\contentsline {chapter}{Bibliography}{8}{chapter*.2}% 
-\contentsline {chapter}{List of Figures}{9}{chapter*.3}% 
-\contentsline {chapter}{List of Tables}{10}{chapter*.4}% 
+\contentsline {chapter}{\numberline {4}Datasets}{5}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Datasets description}{5}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Data pre-processing}{5}{section.4.2}% 
+\contentsline {chapter}{\numberline {5}Technologies}{6}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Software and Libraries}{6}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Hardware}{6}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Network learning}{7}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Variational auto encoder}{7}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Convolutional variational auto encoder}{7}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}VAE-GAN}{7}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}CycleGAN}{7}{section.6.4}% 
+\contentsline {chapter}{\numberline {7}Results}{8}{chapter.7}% 
+\contentsline {chapter}{\numberline {8}Conclusions}{9}{chapter.8}% 
+\contentsline {chapter}{Bibliography}{10}{chapter*.2}% 
+\contentsline {chapter}{List of Figures}{11}{chapter*.3}% 
+\contentsline {chapter}{List of Tables}{12}{chapter*.4}% 
