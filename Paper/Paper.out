@@ -16,7 +16,7 @@
 \BOOKMARK [0][-]{chapter.5}{Technologies}{}% 16
 \BOOKMARK [1][-]{section.5.1}{Software and Libraries}{chapter.5}% 17
 \BOOKMARK [1][-]{section.5.2}{Hardware}{chapter.5}% 18
-\BOOKMARK [0][-]{chapter.6}{Network learning}{}% 19
+\BOOKMARK [0][-]{chapter.6}{Networks implementation}{}% 19
 \BOOKMARK [1][-]{section.6.1}{Variational auto encoder}{chapter.6}% 20
 \BOOKMARK [1][-]{section.6.2}{Convolutional variational auto encoder}{chapter.6}% 21
 \BOOKMARK [1][-]{section.6.3}{VAE-GAN}{chapter.6}% 22

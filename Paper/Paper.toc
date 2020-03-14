@@ -16,7 +16,7 @@
 \contentsline {chapter}{\numberline {5}Technologies}{6}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Software and Libraries}{6}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Hardware}{6}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Network learning}{7}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Networks implementation}{7}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Variational auto encoder}{7}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Convolutional variational auto encoder}{7}{section.6.2}% 
 \contentsline {section}{\numberline {6.3}VAE-GAN}{7}{section.6.3}% 
