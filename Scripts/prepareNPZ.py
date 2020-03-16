@@ -4,15 +4,15 @@ import numpy as np
 import glob
 
 # Constants
-name = 'DiCaprioToDowneyJr_Big_VAE'
+name = 'mnist_jpg'
 data_dir = 'C:/Users/michal/Desktop/' + name + '/'
 train_person_A = data_dir + 'train_A/'
 test_person_A = data_dir + 'test_A/'
 train_person_B = data_dir + 'train_B/'
 test_person_B = data_dir + 'test_B/'
 
-IMG_HEIGHT = 160
-IMG_WIDTH = 160
+IMG_HEIGHT = 64
+IMG_WIDTH = 64
 
 # Load data
 def loadImages(src_dir, size=(IMG_HEIGHT, IMG_WIDTH)):
