@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  22 MAR 2020 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  22 MAR 2020 20:12
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -166,29 +166,62 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 8.
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.
 sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (Paper.aux)
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks17
+\float@box=\box27
+\@float@everytoks=\toks18
+\@floatcapt=\box28
+)
+(Paper.aux)
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-\AtBeginShipoutBox=\box27
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+\AtBeginShipoutBox=\box29
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
 "
@@ -199,27 +232,8 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen107
-\scratchbox=\box28
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen108
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks18
-)))
-Package hyperref Info: Link coloring ON on input line 19.
+)
+Package hyperref Info: Link coloring ON on input line 24.
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -229,17 +243,48 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count100
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (Paper.out) (Paper.out)
 \@outlinefile=\write3
 \openout3 = `Paper.out'.
 
-\@temphbadness=\count106
-\@tempvbadness=\count107
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen109
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen110
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\@temphbadness=\count107
+\@tempvbadness=\count108
 \@temphfuzz=\skip44
 \@temptextwidth=\skip45
 \@temptextheight=\skip46
@@ -249,22 +294,22 @@ LaTeX Info: Redefining \nameref on input line 19.
 \@tempoddsidemargin=\skip50
 \@tempevensidemargin=\skip51
 
-Overfull \hbox (8.88072pt too wide) in paragraph at lines 22--22
+Overfull \hbox (8.88072pt too wide) in paragraph at lines 27--27
  [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 27.
 \@tempheightkier=\skip52
 \@tempheighttkier=\skip53
 \@tempheightspec=\skip54
 \@tempheighttspec=\skip55
 
-Overfull \hbox (2.90689pt too wide) in paragraph at lines 22--22
+Overfull \hbox (2.90689pt too wide) in paragraph at lines 27--27
 []\T1/cmr/m/sc/17.28 Specialization:| 
  []
 
@@ -273,21 +318,20 @@ Overfull \hbox (2.90689pt too wide) in paragraph at lines 22--22
 
 
 {C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Paper.tocpdfTeX warning (ext4): destination with the same identifier (name{pag
-e.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 ... {chapter}{List of Tables}{15}{chapter*.4}
-                                                  % [1
-
-])
+(Paper.toc)
 \tf@toc=\write4
 \openout4 = `Paper.toc'.
 
- [2]
-(Sections/Abstract.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \newpage
+              [1
+
+] (Sections/Abstract.tex
 Chapter 1.
-) (Sections/Introduction.tex [3
+) (Sections/Introduction.tex [2
 
 ]
 Chapter 2.
@@ -311,99 +355,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[4
+[3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 )
-(Sections/Theory.tex [5]
+(Sections/Theory.tex [4]
 Chapter 3.
-) (Sections/Deepfake_methods.tex [6
+<./Graphics/deep_learning_chart.png, id=179, 732.7375pt x 323.2075pt>
+File: ./Graphics/deep_learning_chart.png Graphic file (type png)
+<use ./Graphics/deep_learning_chart.png>
+Package pdftex.def Info: ./Graphics/deep_learning_chart.png  used on input line
+ 6.
+(pdftex.def)             Requested size: 227.62204pt x 100.40042pt.
+) (Sections/Deepfake_methods.tex [5
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Deepfake methods} <./Graphics/deep_learning_chart.png>]
 Chapter 4.
 (Sections/VAE.tex) (Sections/Convolutional_VAE.tex) (Sections/GAN.tex)
-(Sections/CycleGAN.tex)) (Sections/Datasets.tex [7
+(Sections/CycleGAN.tex)) (Sections/Datasets.tex [6
 
 ]
 Chapter 5.
-) (Sections/Technologies.tex [8
+) (Sections/Technologies.tex [7
 
 ]
 Chapter 6.
-) (Sections/Networks_implementation.tex [9
+) (Sections/Networks_implementation.tex [8
 
 ]
 Chapter 7.
-) (Sections/Results.tex [10
+) (Sections/Results.tex [9
 
 ]
 Chapter 8.
-) (Sections/Conclusions.tex [11
+) (Sections/Conclusions.tex [10
 
 ]
 Chapter 9.
-) (Sections/Bibliography.tex [12
+) (Sections/Bibliography.tex [11
 
-]) [13
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+[12
 
 ] (Paper.lof)
 \tf@lof=\write5
 \openout5 = `Paper.lof'.
 
- [14
+ [13
 
 ] (Paper.lot)
 \tf@lot=\write6
 \openout6 = `Paper.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
- [15
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
-
-(Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+ (Paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Paper.out' has not changed.
-(rerunfilecheck)             Checksum: 17C170BC752F83D19545334067542C95;1907.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+(rerunfilecheck)             Checksum: 22EBA73E2CDFE4A63CB4C4F39EE9B0CB;1803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5263 strings out of 492946
- 78131 string characters out of 3126267
- 166190 words of memory out of 3000000
- 9036 multiletter control sequences out of 15000+200000
- 16921 words of font info for 37 fonts, out of 3000000 for 9000
+ 5654 strings out of 492946
+ 84619 string characters out of 3126267
+ 171879 words of memory out of 3000000
+ 9395 multiletter control sequences out of 15000+200000
+ 17234 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,15n,28p,1081b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,15n,28p,1081b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecti0800.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts
+ectt1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecti0800.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts
 /pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Admin\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Us
-ers\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Admin\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Admin\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Us
+ers\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.
 pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\eccc1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Paper.pdf (16 pages, 173425 bytes).
+\ecbx2074.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Admin/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Paper.pdf (15 pages, 219811 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

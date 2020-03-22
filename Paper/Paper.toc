@@ -1,31 +1,29 @@
-\contentsline {chapter}{\numberline {1}Abstract}{3}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Introduction}{4}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Motivation}{4}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Objective and assumptions}{5}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}State of the art}{5}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{5}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Theoretical background}{6}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Artificial neural network}{6}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Convolutional neural networks}{6}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Supervised vs unsupervised training}{6}{section.3.3}% 
-\contentsline {chapter}{\numberline {4}Deepfake methods}{7}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Variational auto encoder}{7}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Convolutional variational auto encoder}{7}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}VAE-GAN}{7}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}CycleGAN}{7}{section.4.4}% 
-\contentsline {chapter}{\numberline {5}Datasets}{8}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Datasets description}{8}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Data pre-processing}{8}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Technologies}{9}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Software and Libraries}{9}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Hardware}{9}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Networks implementation}{10}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Variational auto encoder}{10}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Convolutional variational auto encoder}{10}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}VAE-GAN}{10}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}CycleGAN}{10}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Results}{11}{chapter.8}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{12}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{13}{chapter*.2}% 
-\contentsline {chapter}{List of Figures}{14}{chapter*.3}% 
-\contentsline {chapter}{List of Tables}{15}{chapter*.4}% 
+\contentsline {chapter}{\numberline {1}Abstract}{2}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Introduction}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Motivation}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Objective and assumptions}{4}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}State of the art}{4}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{4}{section.2.4}% 
+\contentsline {chapter}{\numberline {3}Theoretical background}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Artificial neural networks}{5}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Convolutional neural networks}{5}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Supervised vs unsupervised training}{5}{section.3.3}% 
+\contentsline {chapter}{\numberline {4}Deepfake methods}{6}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Variational auto encoder}{6}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Convolutional variational auto encoder}{6}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}VAE-GAN}{6}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}CycleGAN}{6}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Datasets}{7}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Datasets description}{7}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Data pre-processing}{7}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Technologies}{8}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Software and Libraries}{8}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hardware}{8}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Networks implementation}{9}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Variational auto encoder}{9}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Convolutional variational auto encoder}{9}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}VAE-GAN}{9}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}CycleGAN}{9}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Results}{10}{chapter.8}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{11}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{12}{chapter*.2}% 
