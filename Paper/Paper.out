@@ -7,10 +7,10 @@
 \BOOKMARK [0][-]{chapter.3}{Theoretical background}{}% 7
 \BOOKMARK [1][-]{section.3.1}{Artificial neural networks}{chapter.3}% 8
 \BOOKMARK [1][-]{section.3.2}{Convolutional neural networks}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.3}{Supervised vs unsupervised training}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.3}{Supervised, unsupervised and semi-supervised training}{chapter.3}% 10
 \BOOKMARK [0][-]{chapter.4}{Deepfake methods}{}% 11
-\BOOKMARK [1][-]{section.4.1}{Variational auto encoder}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.2}{Convolutional variational auto encoder}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.1}{Autoencoder}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.2}{Variational autoencoder}{chapter.4}% 13
 \BOOKMARK [1][-]{section.4.3}{VAE-GAN}{chapter.4}% 14
 \BOOKMARK [1][-]{section.4.4}{CycleGAN}{chapter.4}% 15
 \BOOKMARK [0][-]{chapter.5}{Datasets}{}% 16
@@ -26,4 +26,4 @@
 \BOOKMARK [1][-]{section.7.4}{CycleGAN}{chapter.7}% 26
 \BOOKMARK [0][-]{chapter.8}{Results}{}% 27
 \BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 28
-\BOOKMARK [0][-]{chapter*.2}{Bibliography}{}% 29
+\BOOKMARK [0][-]{chapter*.6}{Bibliography}{}% 29

@@ -1,23 +1,24 @@
 \chapter{Introduction}
 \section{Motivation}
-Machine learning has found many, different applications in the field of image data processing and computer vision. From picture classification to image denoiseing and resolution enhancement, artificial neural networks has gained the opinion of exceptionally useful tool. But for some time, a new, controversial use-case has been getting more and more attention in both media and research circles. So called "deepfake" technology has opened doors to many new possibilities of picture generation but also raised many issues of moral and legal matter.\\
+Machine learning has found many, different applications in the field of image data processing and computer vision. From picture classification to image denoiseing and resolution enhancement, artificial neural networks has gained the opinion of exceptionally useful tool. But for some time, a new, controversial use-case has been getting more and more attention in both media and research circles. So-called "deepfake" technology has opened doors to many new possibilities of picture generation, but also raised many issues of moral and legal matters.\\
 
-Deepfake is a technology from the field of machine learning designed to combine and overlay objects in images or videos creating deceptively realistic counterfeits. The name comes from combination of two terms: ''deep learning'' and ''fake'', and has its origins in a Reddit user named ''deepfakes''. Initially the term was associated only with face-swapping technology, but with time it was extended to all deep learning implementations of changing objects in images.\\
+Deepfake is a technology from the field of machine learning designed to combine and overlay objects in images or videos creating deceptively realistic counterfeits. The name comes from combination of two terms: ``deep learning'' and ``fake'', and has its origins in a Reddit user named ``deepfakes''. Initially the term was associated only with face-swapping technology, but with time it was extended to all deep learning implementations of changing objects in images.\\
 
-Deepfake technology has already found multiple applications such as changing seasons in the landscapes images, transforming horses into zebras or "repainting" images in styles of different artists. But the most controversial and impactful use-case so far is already mentioned face-swapping. In times of overwhelming amount of news it's getting harder and harder to filter out fake ones from valuable peaces of information. People generally tend to not check sources of information but rather blindly follow hot stories in social medias and television. Such environment combined with capabilities of deepfake gives possibilities of influencing elections by misrepresenting politicians in forged videos to defame or blackmail theme. Another popular use-case of described technology is creating erotic videos by replacing faces of porn actress with faces of well-known celebrities. This application might have less dangerous consequences then influencing world politics but may be hurtful to people that became objects of such act.\\
+Deepfake technology has already found multiple applications such as changing seasons in the landscapes images, transforming horses into zebras or "repainting" images in styles of different artists. But the most controversial and impactful use-case so far is already mentioned face-swapping. In times of overwhelming amount of news it's getting harder and harder to filter out fake ones from valuable peaces of information. People generally tend not to check sources of information but rather blindly follow hot stories in social medias and television. Such environment combined with capabilities of deepfake gives possibilities of influencing elections by misrepresenting politicians in forged videos to defame or blackmail theme. Another popular use-case of described technology is creating erotic videos by replacing faces of porn actress with faces of well-known celebrities. This application might have less dangerous consequences than influencing world politics but may be hurtful to people that became objects of such act.\\
 
 Although there are many malicious ways of using deepfake technology it might also be used for good reasons such as helping people to cope with the loss of the loved once or in entertainment filed by de-ageing actors to play younger-selves. Besides, to be able to detect and fight harmful applications of deepfake it might be vital to deeply understand algorithms  and techniques behind it. Therefore, conducting research on that part of machine learning field seems to have great meaning in incoming times.
 
 \section{Objective and assumptions}
 This project aims to implement and compare four different methods of changing objects in images with application of artificial neural networks. For sake of this research, human faces were chosen as an object of replacement, as it rises a complex issue of simultaneous color, texture and shape modification.\\
 
-As there are no numerical methods of measuring quality of images obtained from deepfake algorithms, the only way of appraising results of methods discussed in this research is visual evaluation. To be able to fairly rate each implemented technique, the same set of images will be used as a learning dataset for all cases. Therefor, effects of all approaches will be visually evaluated and compared with each other, which will result in the final assessment. This rating of methods is the expected outcome of the research.\\
+As there are no numerical methods of measuring the quality of images obtained from deepfake algorithms, the only way of appraising results of methods discussed in this research is visual evaluation. To be able to fairly rate each implemented technique, the same set of images will be used as a learning dataset for all cases. Therefor, effects of all approaches will be visually evaluated and compared with each other, which will result in the final assessment. This rating of methods is the expected outcome of the research.\\
 
-There are two main factors that will be taken into a consideration during a results evaluation process. First of them is a resemblance of the faked image, to the appearance of the imitated person. The more striking similarity, the better. The other crucial aspect is preservation of original facial expression and pose, as the believable deepfake must capture the source material movements. Resultant of those two factors will be the main feature to be rated. It is assumed that neither of mentioned characteristics should outweigh the other one, but rather, the final effect should be well balanced composition of both aspects.
+There are two main factors that will be taken into a consideration during a results evaluation process. First of them is a resemblance of the faked image, to the appearance of the imitated person. The more striking similarity, the better. The other crucial aspect is preservation of original facial expression and pose, as the believable deepfake must capture the source material movements. Resultant of those two factors will be the main feature to be rated. It is assumed that neither of mentioned characteristics should outweigh the other one, but rather, the final effect should be well-balanced composition of both aspects.
 
 \section{State of the art}
-While there are many, great articles and papers about ...\\
-Is it necessary ???
+While there are many, great articles and papers that elaborately explain all mentioned approaches of generating deepfakes, no comparison of those methods were found. To be written ...
+
+
 
 \section{Naming conventions and terminology}
 Below, all abbreviations and naming conventions used in this research are listed and explained:
@@ -26,7 +27,9 @@ Below, all abbreviations and naming conventions used in this research are listed
 \item Deepfake -- name of the deep learning technology of swapping objects in images or an end result generated witch such technology
 \item ANN -- artificial neural network
 \item CNN -- convolutional neural network
-\item VAE -- variational autoencoder 
+\item AE -- autoencoder 
+\item VAE -- variational autoencoder
 \item GAN -- generative adversarial network
-\item VAE-GAN -- variational autoencoder-Generative adversarial network 
+\item VAE-GAN -- variational autoencoder-gGenerative adversarial network 
+\item Activation function -- transfer function
 \end{itemize}
