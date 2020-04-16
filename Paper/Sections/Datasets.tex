@@ -1,7 +1,10 @@
 \chapter{Datasets}
-\section{Datasets description}
-How dataset for deepfake learning should look like
-Used Datasets: VoxCeleb (description)
+\section{Dataset description}
+Creating a high quality, well-balanced dataset is an essential step in the process of deepfake generation. Poorly prepared training set might cause that even great network architectures and state of the art algorithms will produce disappointing results. The most efficient approach to this problem ,in case of face-swapping technology, is obtaining images of targeted people from video recordings, which allows to produce great number of images that cover different facial expressions and head positions. There are several factors that should be taken into a consideration in order to construct proper dataset.\\
+
+First of all, videos of people with at least slight resemblance should be chosen. The most important feature in this matter is skin tone but the more similar appearances, the more deceiving deepfake might be achieved. Another important factor is overall quality of source material. Videos with high resolution and large number of frames per second are best suited for this purpose, but also require more computational power and time to properly train necessary networks. Finally, after deconstruction of videos into single images, all set should be revised to remove pictures that depict faces which are blurry, deformed or in some way covered, for example by hand.\\
+
+For sake of this research the ``VoxCeleb2'' dataset was used. As described in \cite{voxceleb2_bib}, VoxCeleb2 consists of over 1 million utterances of over 6000 celebrities derived from videos from YouTube platform. Source data is diversified in terms of recorded people's genders, ethnicities, ages and accents but also in terms of videos quality, lighting conditions, stability and lengths. Each recording has a resolution of 224 by 224 pixels and depicts closeup shot of a character's face and shoulders, which is close enough to clearly capture subtle facial expressions.
 
 \section{Data pre-processing}
- how I prepared my own datasets. All operations from videos to npz files
+To prepare dataset best suited for purpose oh this research following preparations were made.

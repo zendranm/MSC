@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {4.3}VAE-GAN}{9}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}CycleGAN}{9}{section.4.4}% 
 \contentsline {chapter}{\numberline {5}Datasets}{10}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Datasets description}{10}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Dataset description}{10}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Data pre-processing}{10}{section.5.2}% 
 \contentsline {chapter}{\numberline {6}Technologies}{11}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Software and Libraries}{11}{section.6.1}% 

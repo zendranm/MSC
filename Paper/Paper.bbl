@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+
+\bibitem{autoencoders_bib}
+Dor Bank, Noam Koenigstein, and Raja Giryes.
+\newblock Autoencoders, 2020.
+
+\bibitem{voxceleb2_bib}
+J.~S. Chung, A.~Nagrani, and A.~Zisserman.
+\newblock Voxceleb2: Deep speaker recognition.
+\newblock In {\em INTERSPEECH}, 2018.
+
+\end{thebibliography}
