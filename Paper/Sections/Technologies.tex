@@ -1,6 +1,11 @@
 \chapter{Technologies}
 \section{Software and Libraries}
-As in title...
+\label{Software and Libraries}
+All scripts and programs necessary for data pre-processing described in section \ref{Data pre-processing} were implemented in Python 3.7.6 programming language \cite{python_bib} from Anaconda distribution \cite{anaconda_bib}. This platform provides over 7,500 data science and machine learning packages such as OpenCV (Open Source Computer Vision Library), an open source computer vision and machine learning software library built to provide a common infrastructure for computer vision applications \cite{opencv_bib}, or NumPy, a library that provides a multidimensional arrays and matrices objects, and a large set of high-level mathematical functions to operate on these arrays \cite{numpy_bib}.\\
+
+Models of artificial neural networks, its training process and validation were implemented on a Google Colaboratory platform that allows to write and execute arbitrary python code through the browser, and is especially well suited to machine learning and data analysis \cite{colab_bib}. The most important library used in development process was Tensorflow 2.0, an end-to-end, open source, python-friendly platform designed for complex computations, machine learning and deep learning \cite{tensorflow_bib}. Additionally, to simplify networks implementation process, Keras library was used. Keras is an open-source, high-level neural networks API, written in Python and supported in Tensorflow's core library. Created as a higher-level, more user friendly interface to significantly simplify development of deep learning models \cite{keras_bib}.
 
 \section{Hardware}
-As in title ... (My hardware, Google colab, Google cloud?)
+Data pre-processing described in section \ref{Data pre-processing} were entirely developed on a local computer with Windows 10 operational system, NVIDIA GeForce GTX® 960M GPU, quad core processor Intel® Core™ i7-6700HQ with base frequency 2,60 GHz, 16 GB RAM memory SO-DIMM DDR4 Synchronous with frequency 2133 MHz and 256 GB SSD memory disc SK Hynix SC308.\\
+
+Google Colaboratory platform described in section \ref{Software and Libraries} allows a free access to powerful GPUs such as Nvidia Tesla K80 \cite{teslak80_bib} which is compatible with CUDA technology -- a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units. With CUDA, it is possible to significantly speed up computing applications by using the power of GPUs \cite{cuda_bib}.

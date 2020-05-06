@@ -13,18 +13,19 @@ For sake of this research the ``VoxCeleb2'' dataset was used. As described in \c
 \end{figure}
 
 \section{Data pre-processing}
-To prepare dataset best suited for purpose of this research following preparations were made, in accordance with guidelines described in section \ref{Dataset description}. Sample images of pre-processed data are presented in figure \ref{fig:subjects_sample}.
+\label{Data pre-processing}
+To prepare dataset best suited for purpose of this research, following preparations were made, in accordance with guidelines described in section \ref{Dataset description}. Sample images of pre-processed data are presented in figure \ref{fig:subjects_sample}.
 
 \begin{enumerate}
-\item Two actors (Leonardo DiCaprio and Robert Downey Jr.), further called subject A and subject B, were chosen as targets of face replacement. This choice was dictated by how well their faces are known and recognizable which facilitates the final assessment and by factors mentioned in section \ref{Dataset description}.
+\item Two actors (Leonardo DiCaprio and Robert Downey Jr.), further called subject A and subject B, were chosen as targets of face replacement. This choice was dictated by how well their faces are known and recognizable, which facilitates the final assessment, and by factors mentioned in section \ref{Dataset description}.
 
-\item From the set of all videos of chosen subjects, available in ``VoxCeleb2'' dataset, those which presented subjects in similar age and had good recording quality were selected.
+\item From the set of all videos of chosen subjects available in ``VoxCeleb2'' dataset, those which presented subjects in similar age, and had good recording quality, were selected.
 
-\item From each video every tenth frame was extracted to limit the amount of nearly identical images. Additionally, through Haar feature-based cascade classifiers described in section \ref{Haar feature-based cascade classifiers}, the face itself was cut out from each extracted frame to discard unnecessary parts of pictures.
+\item From each video, every tenth frame was extracted to limit the amount of nearly identical images. Additionally, through Haar feature-based cascade classifiers described in section \ref{Haar feature-based cascade classifiers}, the face itself was cut out from each extracted frame to discard unnecessary parts of pictures.
 
 \item Resolutions of all obtained face images varied, therefore data had to be rescaled to a common resolution of 160 by 160 pixels.
 
-\item Final step, was to save obtained images as arrays into a single file in uncompressed ``.npz'' format. This allows easy data transferring and simplifies the process of loading data during the training of artificial neural networks.
+\item Final step, was to save obtained images as arrays in a form of a single file, in uncompressed ``.npz'' format. This allows easy data transferring and simplifies the process of loading data during the training of artificial neural networks.
 \end{enumerate}
 
 \begin{figure}[H]

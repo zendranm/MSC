@@ -6,9 +6,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Autoencoder general idea\relax }}{7}{figure.caption.4}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Three steps of generating deepfakes\relax }}{8}{figure.caption.5}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Reparameterization trick\relax }}{9}{figure.caption.6}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{10}{figure.caption.6}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{11}{figure.caption.7}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{11}{figure.caption.7}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{12}{figure.caption.8}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -11,20 +11,20 @@
 \contentsline {section}{\numberline {3.4}Haar feature-based cascade classifiers}{6}{section.3.4}% 
 \contentsline {chapter}{\numberline {4}Deepfake methods}{7}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Autoencoder}{7}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Variational autoencoder}{8}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}VAE-GAN}{9}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}CycleGAN}{9}{section.4.4}% 
-\contentsline {chapter}{\numberline {5}Datasets}{10}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Dataset description}{10}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Data pre-processing}{11}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Technologies}{12}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Software and Libraries}{12}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Hardware}{12}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Networks implementation}{13}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Variational auto encoder}{13}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Convolutional variational auto encoder}{13}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}VAE-GAN}{13}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}CycleGAN}{13}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Results}{14}{chapter.8}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{15}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{16}{chapter*.8}% 
+\contentsline {section}{\numberline {4.2}Variational autoencoder}{9}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}VAE-GAN}{10}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}CycleGAN}{10}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Datasets}{11}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Dataset description}{11}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Data pre-processing}{12}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Technologies}{13}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Software and Libraries}{13}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hardware}{13}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Networks implementation}{14}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Variational auto encoder}{14}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Convolutional variational auto encoder}{14}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}VAE-GAN}{14}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}CycleGAN}{14}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Results}{15}{chapter.8}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{16}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{17}{chapter*.9}% 
