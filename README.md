@@ -14,6 +14,10 @@ Contains all scripts used to process data from data sets.
 4. prepareNPZ.py - takes test and training folders and compresses them into npz file for VAE training.
 5. check_images_sizes.py - checks if all images has the same size.
 6. rescale_images.py - changes images sizes to fixed size.
+7. generate_from_models - generates deepfakes form given, pre-trained models.
 
 ## Colab_Results
-Contains some pictures saved from Google Colab learning. Inner folder names are the same as Colab Notebooks files they come frome. 
+Contains some pictures saved from Google Colab learning. Inner folder names are the same as Colab Notebooks files they come frome.
+
+## Test_Images
+Contains pictures used to generate final results for paper.

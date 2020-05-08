@@ -3,7 +3,7 @@ import shutil
 import cv2
 
 # Constants
-root_folder = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_Big_VAE/'
+root_folder = 'C:/Users/michal/Desktop/DiCaprioToDowneyJr_Small_VAE/'
 root_person_A = root_folder + 'root_person_A/'
 root_person_B = root_folder + 'root_person_B/'
 src_person_A = root_folder + 'src_person_A/'
