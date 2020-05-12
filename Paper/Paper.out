@@ -17,14 +17,21 @@
 \BOOKMARK [0][-]{chapter.5}{Datasets}{}% 17
 \BOOKMARK [1][-]{section.5.1}{Dataset description}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Data pre-processing}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Technologies}{}% 20
-\BOOKMARK [1][-]{section.6.1}{Software and Libraries}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.2}{Hardware}{chapter.6}% 22
-\BOOKMARK [0][-]{chapter.7}{Networks implementation}{}% 23
-\BOOKMARK [1][-]{section.7.1}{Variational auto encoder}{chapter.7}% 24
-\BOOKMARK [1][-]{section.7.2}{Convolutional variational auto encoder}{chapter.7}% 25
-\BOOKMARK [1][-]{section.7.3}{VAE-GAN}{chapter.7}% 26
-\BOOKMARK [1][-]{section.7.4}{CycleGAN}{chapter.7}% 27
-\BOOKMARK [0][-]{chapter.8}{Results}{}% 28
-\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 29
-\BOOKMARK [0][-]{chapter*.9}{Bibliography}{}% 30
+\BOOKMARK [1][-]{section.5.3}{Data augmentation}{chapter.5}% 20
+\BOOKMARK [0][-]{chapter.6}{Technologies}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Software and Libraries}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.2}{Hardware}{chapter.6}% 23
+\BOOKMARK [0][-]{chapter.7}{Networks implementation}{}% 24
+\BOOKMARK [1][-]{section.7.1}{Autoencoder}{chapter.7}% 25
+\BOOKMARK [1][-]{section.7.2}{Variational autoencoder}{chapter.7}% 26
+\BOOKMARK [1][-]{section.7.3}{VAE-GAN}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.4}{CycleGAN}{chapter.7}% 28
+\BOOKMARK [0][-]{chapter.8}{Results}{}% 29
+\BOOKMARK [1][-]{section.8.1}{Autoencoder}{chapter.8}% 30
+\BOOKMARK [1][-]{section.8.2}{Variational autoencoder}{chapter.8}% 31
+\BOOKMARK [1][-]{section.8.3}{VAE-GAN}{chapter.8}% 32
+\BOOKMARK [1][-]{section.8.4}{CycleGAN}{chapter.8}% 33
+\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 34
+\BOOKMARK [0][-]{chapter*.11}{Bibliography}{}% 35
+\BOOKMARK [0][-]{chapter*.12}{List of Figures}{}% 36
+\BOOKMARK [0][-]{chapter*.13}{List of Tables}{}% 37

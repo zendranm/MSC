@@ -69,6 +69,10 @@ S.~Odaibo, ``Tutorial: Deriving the standard variational autoencoder (vae) loss
 J.~S. Chung, A.~Nagrani, and A.~Zisserman, ``Voxceleb2: Deep speaker
   recognition,'' in \emph{INTERSPEECH}, 2018.
 
+\bibitem{data_augmentation_bib}
+C.~Shorten and T.~Khoshgoftaar, ``A survey on image data augmentation for deep
+  learning,'' \emph{Journal of Big Data}, vol.~6, 12 2019.
+
 \bibitem{python_bib}
 D.~Kuhlman, \emph{A Python Book: Beginning Python, Advanced Python, and Python
   Exercises}, 12 2013.

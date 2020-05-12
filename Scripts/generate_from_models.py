@@ -69,7 +69,7 @@ for image in images:
     plt.axis('off')
     i += 1
 
-plt.savefig("image.png",bbox_inches='tight',dpi=100)
+# plt.savefig("image.png",bbox_inches='tight',dpi=100)
 plt.show()
 
 print("Finished successfully")

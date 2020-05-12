@@ -45,3 +45,47 @@ To prepare dataset best suited for purpose of this research, following preparati
 \caption{Sample images of pre-processed data}
 \label{fig:subjects_sample}
 \end{figure}
+
+\newpage
+\section{Data augmentation}
+While generating results using autoencoders method, a specific relationship was observed. It was noticed that generated deepfakes look like composition of two faces, one directed to the left and the other to the right. This phenomenon might be seen in figure \ref{subfig:no_augmentation_normal}, where first column from the left presents original images, second contains images reconstructed from latent spaces by decoder XY and third presents actual deepfakes obtained by decoding latent faces encoded from subject X, with decoder Y, as explained in section \ref{Autoencoder}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{no_augmentation_normal.png}
+  \caption{Sight directed to the left}
+  \label{subfig:no_augmentation_normal}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{no_augmentation_fliped.png}
+  \caption{Sight directed to the right}
+  \label{subfig:no_augmentation_fliped}
+\end{subfigure}
+\caption{Models trained without data augmentation}
+\label{fig:no_augmented_data}
+\end{figure}
+
+Undoubtedly, deepfakes presented in figure \ref{subfig:no_augmentation_normal} are of much worse quality then those, generated from the same, but diverted images, presented in figure \ref{subfig:no_augmentation_fliped}. Such phenomenon occurred, as significant majority of faces extracted from subject Y in created database was directed to the right. That kind of imbalance resulted in models learning, that ``proper'' reconstruction of subject Y should be directed to the right, regardless of position of original face.\\
+
+To solve the issue of unbalanced data, so called data augmentation technique was used. This approach assumes that more information might be extracted from collected data, through different augmentation methods \cite{data_augmentation_bib}. When processing images, following methods might be applied: image inversion, rotation, scaling, zooming, translations or adding Gaussian noise. In case of deepfake generation, significant transformations of original picture would cause, that the generated images would not resemble the originals. Therefore, only one augmentation technique, reflection, was applied. As presented in figure \ref{fig:augmented_data}, networks trained with original data extended by augmented one perform much better when processing images depicting different head positions. 
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{augmentation_normal.png}
+  \caption{Sight directed to the left}
+  \label{subfig:augmentation_normal}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{augmentation_fliped.png}
+  \caption{Sight directed to the right}
+  \label{subfig:augmentation_fliped}
+\end{subfigure}
+\caption{Models trained with data augmentation}
+\label{fig:augmented_data}
+\end{figure}
