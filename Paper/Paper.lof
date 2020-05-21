@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Deep learning belongingness\relax }}{6}{figure.caption.2}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Artificial neuron model\relax }}{7}{figure.caption.3}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Artificial neuron model\relax }}{6}{figure.caption.3}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces General idea of autoencoder\relax }}{8}{figure.caption.4}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Three steps of generating deepfakes\relax }}{9}{figure.caption.5}% 
@@ -11,9 +11,9 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{12}{figure.caption.7}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{13}{figure.caption.8}% 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Models trained without data augmentation\relax }}{14}{figure.caption.9}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{15}{figure.caption.10}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{14}{figure.caption.10}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of encoder and decoder XY\relax }}{19}{figure.caption.11}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of encoder and decoder XY\relax }}{17}{figure.caption.11}% 
 \addvspace {10\p@ }
