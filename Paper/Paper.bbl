@@ -65,6 +65,13 @@ D.~Kamath, ``Generating new faces with variational autoencoders,'' 2020.
 S.~Odaibo, ``Tutorial: Deriving the standard variational autoencoder (vae) loss
   function,'' 2019.
 
+\bibitem{dataset_creation_bib}
+\BIBentryALTinterwordspacing
+``{[GUIDE] - Celebrity faceset/dataset creation - How to create celebrity
+  facesets}.'' [Online]. Available:
+  \url{https://mrdeepfakes.com/forums/thread-guide-celebrity-faceset-dataset-creation-how-to-create-celebrity-facesets}
+\BIBentrySTDinterwordspacing
+
 \bibitem{voxceleb2_bib}
 J.~S. Chung, A.~Nagrani, and A.~Zisserman, ``Voxceleb2: Deep speaker
   recognition,'' in \emph{INTERSPEECH}, 2018.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  12 MAY 2020 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  21 MAY 2020 11:08
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -457,7 +457,7 @@ Overfull \hbox (2.90689pt too wide) in paragraph at lines 32--32
 e.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...\numberline {9}Conclusions}{19}{chapter.9}
+l.34 ...\numberline {9}Conclusions}{20}{chapter.9}
                                                   % [1
 
 ])
@@ -577,7 +577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<./Graphics/voxceleb2_sample.png, id=319, 1112.958pt x 331.7193pt>
+<./Graphics/voxceleb2_sample.png, id=320, 1112.958pt x 331.7193pt>
 File: ./Graphics/voxceleb2_sample.png Graphic file (type png)
 <use ./Graphics/voxceleb2_sample.png>
 Package pdftex.def Info: ./Graphics/voxceleb2_sample.png  used on input line 9.
@@ -586,26 +586,26 @@ Package pdftex.def Info: ./Graphics/voxceleb2_sample.png  used on input line 9.
 [12
 
  <./Graphics/voxceleb2_sample.png>]
-<./Graphics/dicaprio_sample.png, id=332, 462.528pt x 462.528pt>
+<./Graphics/dicaprio_sample.png, id=334, 462.528pt x 462.528pt>
 File: ./Graphics/dicaprio_sample.png Graphic file (type png)
 <use ./Graphics/dicaprio_sample.png>
 Package pdftex.def Info: ./Graphics/dicaprio_sample.png  used on input line 35.
 
 (pdftex.def)             Requested size: 204.85844pt x 204.86095pt.
-<./Graphics/downeyjr_sample.png, id=333, 462.528pt x 462.528pt>
+<./Graphics/downeyjr_sample.png, id=335, 462.528pt x 462.528pt>
 File: ./Graphics/downeyjr_sample.png Graphic file (type png)
 <use ./Graphics/downeyjr_sample.png>
 Package pdftex.def Info: ./Graphics/downeyjr_sample.png  used on input line 41.
 
 (pdftex.def)             Requested size: 204.85844pt x 204.86095pt.
  [13 <./Graphics/dicaprio_sample.png> <./Graphics/downeyjr_sample.png>]
-<./Graphics/no_augmentation_normal.png, id=348, 243.91125pt x 323.40825pt>
+<./Graphics/no_augmentation_normal.png, id=350, 243.91125pt x 323.40825pt>
 File: ./Graphics/no_augmentation_normal.png Graphic file (type png)
 <use ./Graphics/no_augmentation_normal.png>
 Package pdftex.def Info: ./Graphics/no_augmentation_normal.png  used on input l
 ine 57.
 (pdftex.def)             Requested size: 204.85844pt x 271.63145pt.
-<./Graphics/no_augmentation_fliped.png, id=349, 241.50224pt x 322.806pt>
+<./Graphics/no_augmentation_fliped.png, id=351, 241.50224pt x 322.806pt>
 File: ./Graphics/no_augmentation_fliped.png Graphic file (type png)
 <use ./Graphics/no_augmentation_fliped.png>
 Package pdftex.def Info: ./Graphics/no_augmentation_fliped.png  used on input l
@@ -616,13 +616,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<./Graphics/augmentation_normal.png, id=354, 243.91125pt x 324.0105pt>
+<./Graphics/augmentation_normal.png, id=356, 243.91125pt x 324.0105pt>
 File: ./Graphics/augmentation_normal.png Graphic file (type png)
 <use ./Graphics/augmentation_normal.png>
 Package pdftex.def Info: ./Graphics/augmentation_normal.png  used on input line
  79.
 (pdftex.def)             Requested size: 204.85844pt x 272.1373pt.
-<./Graphics/augmentation_fliped.png, id=355, 243.91125pt x 325.215pt>
+<./Graphics/augmentation_fliped.png, id=357, 243.91125pt x 325.215pt>
 File: ./Graphics/augmentation_fliped.png Graphic file (type png)
 <use ./Graphics/augmentation_fliped.png>
 Package pdftex.def Info: ./Graphics/augmentation_fliped.png  used on input line
@@ -650,11 +650,29 @@ Chapter 7.
 
 ]
 Chapter 8.
-) (Sections/Conclusions.tex [18
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+<./Graphics/ae_decoderXY_loss.png, id=400, 491.8375pt x 467.7475pt>
+File: ./Graphics/ae_decoderXY_loss.png Graphic file (type png)
+<use ./Graphics/ae_decoderXY_loss.png>
+Package pdftex.def Info: ./Graphics/ae_decoderXY_loss.png  used on input line 1
+3.
+(pdftex.def)             Requested size: 227.62204pt x 216.47256pt.
+<./Graphics/ae_decoderXY_acc.png, id=401, 484.81125pt x 467.7475pt>
+File: ./Graphics/ae_decoderXY_acc.png Graphic file (type png)
+<use ./Graphics/ae_decoderXY_acc.png>
+Package pdftex.def Info: ./Graphics/ae_decoderXY_acc.png  used on input line 19
+.
+(pdftex.def)             Requested size: 227.62204pt x 219.61295pt.
+[18
+
+]) (Sections/Conclusions.tex [19 <./Graphics/ae_decoderXY_loss.png> <./Graphics
+/ae_decoderXY_acc.png>]
 Chapter 9.
-) (Paper.bbl [19
+) (Paper.bbl [20
 
 ]
 Overfull \hbox (31.86848pt too wide) in paragraph at lines 26--30
@@ -668,20 +686,20 @@ Underfull \hbox (badness 1057) in paragraph at lines 59--63
 en-
  []
 
-[20
+[21
 
-]) [21] (Paper.lof)
+]) [22] (Paper.lof)
 \tf@lof=\write5
 \openout5 = `Paper.lof'.
 
- [22
+ [23
 
 ] (Paper.lot)
 \tf@lot=\write6
 \openout6 = `Paper.lot'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [23
+ [24
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
@@ -689,7 +707,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `Paper.out' has not changed.
-(rerunfilecheck)             Checksum: D6D902893713EA36B689612645DFBC58;2264.
+(rerunfilecheck)             Checksum: 2B81CC0908D4A3D9A246AE7ABD6F1389;2264.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -697,13 +715,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 7874 strings out of 492946
- 120002 string characters out of 3126267
- 209863 words of memory out of 3000000
- 11516 multiletter control sequences out of 15000+200000
+ 7893 strings out of 492946
+ 120532 string characters out of 3126267
+ 210163 words of memory out of 3000000
+ 11530 multiletter control sequences out of 15000+200000
  18908 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,40p,1328b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,40p,1378b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecrm0800.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -727,9 +745,9 @@ lic/amsfonts/cm/cmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Admin/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Paper.pdf (24 pages, 6030239 bytes).
+Output written on Paper.pdf (25 pages, 6060794 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 975 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 
