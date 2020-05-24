@@ -2,18 +2,27 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Deep learning belongingness\relax }}{6}{figure.caption.2}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Artificial neuron model\relax }}{6}{figure.caption.3}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Artificial neuron model\relax }}{7}{figure.caption.3}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Convolution operation\relax }}{8}{figure.caption.4}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces General idea of autoencoder\relax }}{8}{figure.caption.4}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Three steps of generating deepfakes\relax }}{9}{figure.caption.5}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Reparameterization trick\relax }}{10}{figure.caption.6}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces General idea of autoencoder\relax }}{10}{figure.caption.5}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Three steps of generating deepfakes\relax }}{11}{figure.caption.6}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Reparameterization trick\relax }}{12}{figure.caption.7}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{12}{figure.caption.7}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{13}{figure.caption.8}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Models trained without data augmentation\relax }}{14}{figure.caption.9}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{14}{figure.caption.10}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{14}{figure.caption.8}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{15}{figure.caption.9}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Models trained without data augmentation\relax }}{16}{figure.caption.10}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{17}{figure.caption.11}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of encoder and decoder XY\relax }}{17}{figure.caption.11}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of encoder and decoder XY\relax }}{21}{figure.caption.12}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Sample 1 from subject X after 350 epochs\relax }}{22}{figure.caption.13}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Sample 2 from subject X after 350 epochs\relax }}{22}{figure.caption.14}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Sample 3 from subject X after 350 epochs\relax }}{23}{figure.caption.15}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Sample 4 from subject X after 350 epochs\relax }}{23}{figure.caption.16}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Sample 1 from subject Y after 350 epochs\relax }}{24}{figure.caption.17}% 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Sample 2 from subject Y after 350 epochs\relax }}{24}{figure.caption.18}% 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Sample 3 from subject Y after 350 epochs\relax }}{25}{figure.caption.19}% 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Sample 4 from subject Y after 350 epochs\relax }}{25}{figure.caption.20}% 
 \addvspace {10\p@ }

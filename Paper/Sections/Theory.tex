@@ -28,7 +28,18 @@ General idea of artificial neuron model is illustrated in figure \ref{fig:artifi
 Artificial neural networks have found many, different applications in various fields, in both, academic and business environments. For some time, they are successfully used to solve problems of system identification and control (processes in industrial sector), image classification (medical diagnosis), financial forecasting, face recognition (security), sequence recognition (speech recognition), pattern recognition (data generation) and many more \cite{ann_applications_bib}.
 
 \section{Convolutional neural networks}
-Explain how it works, what are main use-cases and so on.
+One of the most commonly applied type of deep neural networks, in case of image processing problems, are the convolutional neural networks. CNNs are constructed with convolutional layers that consist of a certain amount of filters, which allow them to effectively ``recognize'' patterns such as edges, curves, shapes, textures and colors \cite{convolutional_networks_bib}. One of the most important property of such networks is ability to learn spatial hierarchies of patterns. First layer learns to recognize simple features like edges or curves. Filters of following layers can learn more complex patterns made of features from previous layers, like for example circles, squares, eyes, faces and so on \cite{deep_learning_with_python_bib}. Another significant property of CNNs is the fact that the patterns they learn are translation invariant, which means that pattern learned in one part of the picture can be recognized anywhere else.\\
+
+Due to its pattern-recognition abilities, convolutional neural networks have found many, different applications in various fields \cite{cnn_applications_bib}. Depending on the input data dimensionality, CNNs might be applied to time series prediction (weather forecast) or signal identification (ECG signal identification) in case of f one-dimensional data. Two-dimensional CNNs are very effective with image classification (breast cancer tissues classification), object detection (autonomous vehicles) and face recognition (security). In theory, CNNs might be applied to data with any number of dimensions but it is not a popular approach as such data is hard to understand for humans.\\
+
+The main idea behind the convolutional layer is a mathematical operation called convolution, which is a combination of two functions that produces third function. In case of CNNs, convolution is performed by sliding given filter (in form of matrix), also known as kernel, over input data. At every point of input data, a matrix multiplication is calculated and sums the result onto the feature map \cite{convolution_operation_bib}. This process is illustrated in figure \ref{fig:convolution}, where exemplary filter, applied on input data produces convolved feature (also called feature map).
+
+\begin{figure}[H]
+\includegraphics[height=\textheight] {convolution.png}
+\centering
+\caption{Convolution operation}
+\label{fig:convolution}
+\end{figure}
 
 \section{Supervised, unsupervised and semi-supervised training}
 Description of both and what are main differences and when to use which.
