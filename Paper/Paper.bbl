@@ -40,6 +40,24 @@ O.~Abiodun, A.~Jantan, O.~Omolara, K.~Dada, N.~Mohamed, and H.~Arshad,
   ``State-of-the-art in artificial neural network applications: A survey,''
   \emph{Heliyon}, vol.~4, 11 2018.
 
+\bibitem{convolutional_networks_bib}
+X.~Huang, ``Convolutional neural networks in convolution,'' 2018.
+
+\bibitem{deep_learning_with_python_bib}
+F.~Chollet, \emph{Deep Learning with Python}, 1st~ed.\hskip 1em plus 0.5em
+  minus 0.4em\relax USA: Manning Publications Co., 2017.
+
+\bibitem{cnn_applications_bib}
+Z.~Li, W.~Yang, S.~Peng, and F.~Liu, ``A survey of convolutional neural
+  networks: Analysis, applications, and prospects,'' 2020.
+
+\bibitem{convolution_operation_bib}
+\BIBentryALTinterwordspacing
+A.~Dertat, ``Applied deep learning - part 4: Convolutional neural networks,''
+  2017. [Online]. Available:
+  \url{https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
+\BIBentrySTDinterwordspacing
+
 \bibitem{autoencoders_bib}
 D.~Bank, N.~Koenigstein, and R.~Giryes, ``Autoencoders,'' 2020.
 

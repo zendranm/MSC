@@ -7,31 +7,39 @@
 \contentsline {chapter}{\numberline {3}Theoretical background}{6}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Artificial neural networks}{6}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Convolutional neural networks}{7}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Supervised, unsupervised and semi-supervised training}{7}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Haar feature-based cascade classifiers}{7}{section.3.4}% 
-\contentsline {chapter}{\numberline {4}Deepfake methods}{8}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Autoencoder}{8}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Variational autoencoder}{10}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}VAE-GAN}{11}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}CycleGAN}{11}{section.4.4}% 
-\contentsline {chapter}{\numberline {5}Datasets}{12}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Dataset description}{12}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Data pre-processing}{12}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Data augmentation}{14}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Technologies}{15}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Software and Libraries}{15}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Hardware}{15}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Networks implementation}{16}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Autoencoder}{16}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Variational autoencoder}{16}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}VAE-GAN}{16}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}CycleGAN}{16}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Results}{17}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Autoencoder}{17}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Variational autoencoder}{17}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}VAE-GAN}{17}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}CycleGAN}{17}{section.8.4}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{18}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{19}{chapter*.12}% 
-\contentsline {chapter}{List of Figures}{21}{chapter*.13}% 
-\contentsline {chapter}{List of Tables}{22}{chapter*.14}% 
+\contentsline {section}{\numberline {3.3}Supervised, unsupervised and semi-supervised training}{9}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Haar feature-based cascade classifiers}{9}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Deepfake methods}{10}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Autoencoder}{10}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Variational autoencoder}{12}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}VAE-GAN}{13}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}CycleGAN}{13}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Datasets}{14}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Dataset description}{14}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Data pre-processing}{15}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Data augmentation}{16}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Technologies}{18}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Software and Libraries}{18}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hardware}{18}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Networks implementation}{19}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Autoencoder}{19}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Variational autoencoder}{19}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}VAE-GAN}{19}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}CycleGAN}{19}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Results}{20}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Autoencoder}{21}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}Subject X}{22}{subsection.8.1.1}% 
+\contentsline {subsection}{\numberline {8.1.2}Subject Y}{24}{subsection.8.1.2}% 
+\contentsline {section}{\numberline {8.2}Variational autoencoder}{26}{section.8.2}% 
+\contentsline {subsection}{\numberline {8.2.1}Subject X}{26}{subsection.8.2.1}% 
+\contentsline {subsection}{\numberline {8.2.2}Subject Y}{26}{subsection.8.2.2}% 
+\contentsline {section}{\numberline {8.3}VAE-GAN}{26}{section.8.3}% 
+\contentsline {subsection}{\numberline {8.3.1}Subject X}{26}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Subject Y}{26}{subsection.8.3.2}% 
+\contentsline {section}{\numberline {8.4}CycleGAN}{26}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Subject X}{26}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.2}Subject Y}{26}{subsection.8.4.2}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{27}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{28}{chapter*.21}% 
+\contentsline {chapter}{List of Figures}{30}{chapter*.22}% 
+\contentsline {chapter}{List of Tables}{31}{chapter*.23}% 
