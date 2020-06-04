@@ -10,10 +10,10 @@ subjects = ["subject_X/", "subject_Y/"]
 scenes = ["scene_1/", "scene_2/", "scene_3/", "scene_4/"]
 
 models_path = 'C:/Users/michal/Desktop/MSC/Models/VAE/'
-epoch = '450'
+epoch = '800'
 method = "vae"
-encoder = tf.keras.models.load_model(models_path + 'encoder_100.h5')
-decoder_XY = tf.keras.models.load_model(models_path + 'decoder_XY_100.h5')
+encoder = tf.keras.models.load_model(models_path + 'encoder_150.h5')
+decoder_XY = tf.keras.models.load_model(models_path + 'decoder_XY_150.h5')
 decoder_X = tf.keras.models.load_model(models_path + 'decoder_X_' + epoch + '.h5')
 decoder_Y = tf.keras.models.load_model(models_path + 'decoder_Y_' + epoch + '.h5')
 
