@@ -16,7 +16,11 @@ As there are no numerical methods of measuring the quality of images obtained fr
 There are two main factors that will be taken into a consideration during a results evaluation process. First of them is a resemblance of the faked image, to the appearance of the imitated person. The more striking similarity, the better. The other crucial aspect is preservation of original facial expression and pose, as the believable deepfake must capture the source material movements. Resultant of those two factors will be the main feature to be rated. It is assumed that neither of mentioned characteristics should outweigh the other one, but rather, the final effect should be well-balanced composition of both aspects.
 
 \section{State of the art}
-While there are many, great articles and papers that elaborately explain all mentioned approaches of generating deepfakes, no comparison of those methods were found. To be written ...
+Although the deepfake idea is relatively new, a few impressively effective methods has been already developed. The most frequently chosen approaches, in case of generative neural networks are autoencoders, variational autoencoders, generative adversarial networks and so called Cycle-GAN networks. They are not complete, stand-alone methods for deepfake generation but rather key-parts of deepfake technique.\\
+
+One of the most advanced, ready to use tool for deepfake generation is an open source project ``faceswap'' \cite{faceswap_repo_bib}.
+
+While there are many, great articles and papers that elaborately explain all mentioned approaches of generating deepfakes, no comparison of those methods were found. Additionally, results of solutions developed in this particular research cannot be fairly compared with mentioned state-of-the-art methods and algorithms as they were created with purpose different than comparison.
 
 \section{Naming conventions and terminology}
 Below, all abbreviations and naming conventions used in this research are listed and explained:
@@ -28,7 +32,8 @@ Below, all abbreviations and naming conventions used in this research are listed
 \item AE -- autoencoder 
 \item VAE -- variational autoencoder
 \item GAN -- generative adversarial network
-\item VAE-GAN -- variational autoencoder-generative adversarial network 
+\item VAE-GAN -- variational autoencoder-generative adversarial network
+\item Cycle-GAN -- network topology that consists of two GAN networks
 \item Activation function -- transfer function
 \item GPU -- graphics processing unit
 \end{itemize}

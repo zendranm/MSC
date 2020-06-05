@@ -58,6 +58,21 @@ A.~Dertat, ``Applied deep learning - part 4: Convolutional neural networks,''
   \url{https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
 \BIBentrySTDinterwordspacing
 
+\bibitem{algorithms_types_bib}
+\BIBentryALTinterwordspacing
+D.~Fumo, ``Types of machine learning algorithms you should know,'' 2017.
+  [Online]. Available:
+  \url{https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861}
+\BIBentrySTDinterwordspacing
+
+\bibitem{algorithms_types2_bib}
+\BIBentryALTinterwordspacing
+T.~O. Ayodele, ``Types of machine learning algorithms,'' in \emph{New Advances
+  in Machine Learning}, Y.~Zhang, Ed.\hskip 1em plus 0.5em minus 0.4em\relax
+  Rijeka: IntechOpen, 2010, ch.~3. [Online]. Available:
+  \url{https://doi.org/10.5772/9385}
+\BIBentrySTDinterwordspacing
+
 \bibitem{autoencoders_bib}
 D.~Bank, N.~Koenigstein, and R.~Giryes, ``Autoencoders,'' 2020.
 
