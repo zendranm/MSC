@@ -23,9 +23,20 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Motivation}{4}{section.2.1}\protected@file@percent }
+\citation{autoencoders_bib}
+\citation{variational_bayes_bib}
+\citation{vae_loss_bib}
+\citation{autoencoding_beyond_pixels_bib}
+\citation{U_GAT_IT_bib}
+\citation{cycleGAN_1_bib}
+\citation{cycleGAN_2_bib}
+\citation{cycleGAN_3_bib}
+\citation{ctrl_shift_face_bib}
+\citation{DeepFaceLab_bib}
+\citation{faceswap_bib}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Objective and assumptions}{5}{section.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}State of the art}{5}{section.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{5}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{6}{section.2.4}\protected@file@percent }
 \citation{deep_learning_bib}
 \citation{artificial_neuron_bib}
 \citation{artificial_neuron_bib}
@@ -146,12 +157,13 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {8.1}Autoencoder}{22}{section.8.1}\protected@file@percent }
+\newlabel{Results_Autoencoder}{{8.1}{22}{Autoencoder}{section.8.1}{}}
 \newlabel{subfig:ae_decoderXY_loss}{{8.1a}{22}{Loss function\relax }{figure.caption.12}{}}
 \newlabel{sub@subfig:ae_decoderXY_loss}{{a}{22}{Loss function\relax }{figure.caption.12}{}}
 \newlabel{subfig:ae_decoderXY_acc}{{8.1b}{22}{Accuracy\relax }{figure.caption.12}{}}
 \newlabel{sub@subfig:ae_decoderXY_acc}{{b}{22}{Accuracy\relax }{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of encoder and decoder XY\relax }}{22}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:ae_decoderXY}{{8.1}{22}{Training process of encoder and decoder XY\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of AE encoder and decoder XY\relax }}{22}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:ae_decoderXY}{{8.1}{22}{Training process of AE encoder and decoder XY\relax }{figure.caption.12}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Subject X}{23}{subsection.8.1.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Sample 1 from subject X after 350 epochs\relax }}{23}{figure.caption.13}\protected@file@percent }
 \newlabel{fig:ae_x_scene1_350}{{8.2}{23}{Sample 1 from subject X after 350 epochs\relax }{figure.caption.13}{}}
@@ -171,48 +183,79 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.9}{\ignorespaces Sample 4 from subject Y after 350 epochs\relax }}{26}{figure.caption.20}\protected@file@percent }
 \newlabel{fig:ae_y_scene4_350}{{8.9}{26}{Sample 4 from subject Y after 350 epochs\relax }{figure.caption.20}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {8.2}Variational autoencoder}{27}{section.8.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Subject X}{27}{subsection.8.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Subject Y}{27}{subsection.8.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}VAE-GAN}{27}{section.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Subject X}{27}{subsection.8.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Subject Y}{27}{subsection.8.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}CycleGAN}{27}{section.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}Subject X}{27}{subsection.8.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.2}Subject Y}{27}{subsection.8.4.2}\protected@file@percent }
+\newlabel{Results_Variational_Autoencoder}{{8.2}{27}{Variational autoencoder}{section.8.2}{}}
+\newlabel{subfig:vae_decoderXY_loss}{{8.10a}{27}{Loss function\relax }{figure.caption.21}{}}
+\newlabel{sub@subfig:vae_decoderXY_loss}{{a}{27}{Loss function\relax }{figure.caption.21}{}}
+\newlabel{subfig:vae_decoderXY_acc}{{8.10b}{27}{Accuracy\relax }{figure.caption.21}{}}
+\newlabel{sub@subfig:vae_decoderXY_acc}{{b}{27}{Accuracy\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.10}{\ignorespaces Training process of VAE encoder and decoder XY\relax }}{27}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:vae_decoderXY}{{8.10}{27}{Training process of VAE encoder and decoder XY\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Subject X}{28}{subsection.8.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.11}{\ignorespaces Sample 1 from subject X after 800 epochs\relax }}{28}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:vae_x_scene1_800}{{8.11}{28}{Sample 1 from subject X after 800 epochs\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.12}{\ignorespaces Sample 2 from subject X after 800 epochs\relax }}{28}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:vae_x_scene2_800}{{8.12}{28}{Sample 2 from subject X after 800 epochs\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.13}{\ignorespaces Sample 3 from subject X after 800 epochs\relax }}{29}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:vae_x_scene3_800}{{8.13}{29}{Sample 3 from subject X after 800 epochs\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.14}{\ignorespaces Sample 4 from subject X after 800 epochs\relax }}{29}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:vae_x_scene4_800}{{8.14}{29}{Sample 4 from subject X after 800 epochs\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Subject Y}{30}{subsection.8.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.15}{\ignorespaces Sample 1 from subject Y after 600 epochs\relax }}{30}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:vae_y_scene1_600}{{8.15}{30}{Sample 1 from subject Y after 600 epochs\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.16}{\ignorespaces Sample 2 from subject Y after 600 epochs\relax }}{30}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:vae_y_scene2_600}{{8.16}{30}{Sample 2 from subject Y after 600 epochs\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.17}{\ignorespaces Sample 3 from subject Y after 600 epochs\relax }}{31}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:vae_y_scene3_600}{{8.17}{31}{Sample 3 from subject Y after 600 epochs\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.18}{\ignorespaces Sample 4 from subject Y after 600 epochs\relax }}{31}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:vae_y_scene4_600}{{8.18}{31}{Sample 4 from subject Y after 600 epochs\relax }{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}VAE-GAN}{32}{section.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Subject X}{32}{subsection.8.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Subject Y}{32}{subsection.8.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}CycleGAN}{32}{section.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}Subject X}{32}{subsection.8.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.2}Subject Y}{32}{subsection.8.4.2}\protected@file@percent }
 \bibstyle{ieeetran}
 \bibdata{./Sections/Bibliography}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusions}{28}{chapter.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusions}{33}{chapter.9}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{Conclusions}{{9}{28}{Conclusions}{chapter.9}{}}
-\bibcite{deep_learning_bib}{1}
-\bibcite{artificial_neuron_bib}{2}
-\bibcite{artificial_neural_networks_bib}{3}
-\bibcite{ann_applications_bib}{4}
-\bibcite{convolutional_networks_bib}{5}
-\bibcite{deep_learning_with_python_bib}{6}
-\bibcite{cnn_applications_bib}{7}
-\bibcite{convolution_operation_bib}{8}
-\bibcite{algorithms_types_bib}{9}
-\bibcite{algorithms_types2_bib}{10}
-\bibcite{autoencoders_bib}{11}
-\bibcite{variational_bayes_bib}{12}
-\bibcite{vae_loss_bib}{13}
-\bibcite{kl_divergence_bib}{14}
-\bibcite{reparameterization_trick_bib}{15}
-\bibcite{kl_divergence_loss_bib}{16}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{29}{chapter*.21}\protected@file@percent }
-\bibcite{dataset_creation_bib}{17}
-\bibcite{voxceleb2_bib}{18}
-\bibcite{data_augmentation_bib}{19}
-\bibcite{python_bib}{20}
-\bibcite{anaconda_bib}{21}
-\bibcite{opencv_bib}{22}
-\bibcite{numpy_bib}{23}
-\bibcite{colab_bib}{24}
-\bibcite{tensorflow_bib}{25}
-\bibcite{keras_bib}{26}
-\bibcite{teslak80_bib}{27}
-\bibcite{cuda_bib}{28}
-\@writefile{toc}{\contentsline {chapter}{List of Figures}{31}{chapter*.22}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{List of Tables}{32}{chapter*.23}\protected@file@percent }
+\newlabel{Conclusions}{{9}{33}{Conclusions}{chapter.9}{}}
+\bibcite{autoencoders_bib}{1}
+\bibcite{variational_bayes_bib}{2}
+\bibcite{vae_loss_bib}{3}
+\bibcite{autoencoding_beyond_pixels_bib}{4}
+\bibcite{U_GAT_IT_bib}{5}
+\bibcite{cycleGAN_1_bib}{6}
+\bibcite{cycleGAN_2_bib}{7}
+\bibcite{cycleGAN_3_bib}{8}
+\bibcite{ctrl_shift_face_bib}{9}
+\bibcite{DeepFaceLab_bib}{10}
+\bibcite{faceswap_bib}{11}
+\bibcite{deep_learning_bib}{12}
+\bibcite{artificial_neuron_bib}{13}
+\bibcite{artificial_neural_networks_bib}{14}
+\bibcite{ann_applications_bib}{15}
+\bibcite{convolutional_networks_bib}{16}
+\bibcite{deep_learning_with_python_bib}{17}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{34}{chapter*.30}\protected@file@percent }
+\bibcite{cnn_applications_bib}{18}
+\bibcite{convolution_operation_bib}{19}
+\bibcite{algorithms_types_bib}{20}
+\bibcite{algorithms_types2_bib}{21}
+\bibcite{kl_divergence_bib}{22}
+\bibcite{reparameterization_trick_bib}{23}
+\bibcite{kl_divergence_loss_bib}{24}
+\bibcite{dataset_creation_bib}{25}
+\bibcite{voxceleb2_bib}{26}
+\bibcite{data_augmentation_bib}{27}
+\bibcite{python_bib}{28}
+\bibcite{anaconda_bib}{29}
+\bibcite{opencv_bib}{30}
+\bibcite{numpy_bib}{31}
+\bibcite{colab_bib}{32}
+\bibcite{tensorflow_bib}{33}
+\bibcite{keras_bib}{34}
+\bibcite{teslak80_bib}{35}
+\bibcite{cuda_bib}{36}
+\@writefile{toc}{\contentsline {chapter}{List of Figures}{37}{chapter*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{List of Tables}{38}{chapter*.32}\protected@file@percent }

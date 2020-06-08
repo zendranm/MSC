@@ -21,6 +21,56 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{autoencoders_bib}
+D.~Bank, N.~Koenigstein, and R.~Giryes, ``Autoencoders,'' 2020.
+
+\bibitem{variational_bayes_bib}
+D.~P. Kingma and M.~Welling, ``Auto-encoding variational bayes,'' 2013.
+
+\bibitem{vae_loss_bib}
+X.~Hou, L.~Shen, K.~Sun, and G.~Qiu, ``Deep feature consistent variational
+  autoencoder,'' 2016.
+
+\bibitem{autoencoding_beyond_pixels_bib}
+A.~B.~L. Larsen, S.~K. Sønderby, H.~Larochelle, and O.~Winther, ``Autoencoding
+  beyond pixels using a learned similarity metric,'' 2015.
+
+\bibitem{U_GAT_IT_bib}
+J.~Kim, M.~Kim, H.~Kang, and K.~Lee, ``U-gat-it: Unsupervised generative
+  attentional networks with adaptive layer-instance normalization for
+  image-to-image translation,'' 2019.
+
+\bibitem{cycleGAN_1_bib}
+J.-Y. Zhu, T.~Park, P.~Isola, and A.~A. Efros, ``Unpaired image-to-image
+  translation using cycle-consistent adversarial networks,'' 2017.
+
+\bibitem{cycleGAN_2_bib}
+A.~Almahairi, S.~Rajeswar, A.~Sordoni, P.~Bachman, and A.~Courville,
+  ``Augmented cyclegan: Learning many-to-many mappings from unpaired data,''
+  2018.
+
+\bibitem{cycleGAN_3_bib}
+N.~Moriakov, J.~Adler, and J.~Teuwen, ``Kernel of cyclegan as a principle
+  homogeneous space,'' 2020.
+
+\bibitem{ctrl_shift_face_bib}
+\BIBentryALTinterwordspacing
+``{Ctrl Shift Face}.'' [Online]. Available:
+  \url{https://www.youtube.com/channel/UCKpH0CKltc73e4wh0_pgL3g}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DeepFaceLab_bib}
+I.~Perov, D.~Gao, N.~Chervoniy, K.~Liu, S.~Marangonda, C.~Umé, M.~Dpfks, C.~S.
+  Facenheim, L.~RP, J.~Jiang, S.~Zhang, P.~Wu, B.~Zhou, and W.~Zhang,
+  ``Deepfacelab: A simple, flexible and extensible face swapping framework,''
+  2020.
+
+\bibitem{faceswap_bib}
+\BIBentryALTinterwordspacing
+``{FaceSwap}.'' [Online]. Available:
+  \url{https://github.com/deepfakes/faceswap}
+\BIBentrySTDinterwordspacing
+
 \bibitem{deep_learning_bib}
 \BIBentryALTinterwordspacing
 V.~Shah, ``Difference between artificial intelligence,machine learning and deep
@@ -72,16 +122,6 @@ T.~O. Ayodele, ``Types of machine learning algorithms,'' in \emph{New Advances
   Rijeka: IntechOpen, 2010, ch.~3. [Online]. Available:
   \url{https://doi.org/10.5772/9385}
 \BIBentrySTDinterwordspacing
-
-\bibitem{autoencoders_bib}
-D.~Bank, N.~Koenigstein, and R.~Giryes, ``Autoencoders,'' 2020.
-
-\bibitem{variational_bayes_bib}
-D.~P. Kingma and M.~Welling, ``Auto-encoding variational bayes,'' 2013.
-
-\bibitem{vae_loss_bib}
-X.~Hou, L.~Shen, K.~Sun, and G.~Qiu, ``Deep feature consistent variational
-  autoencoder,'' 2016.
 
 \bibitem{kl_divergence_bib}
 S.~Kullback and R.~A. Leibler, ``On information and sufficiency,'' \emph{Ann.

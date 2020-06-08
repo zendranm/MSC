@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2.1}Motivation}{4}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Objective and assumptions}{5}{section.2.2}% 
 \contentsline {section}{\numberline {2.3}State of the art}{5}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{5}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Naming conventions and terminology}{6}{section.2.4}% 
 \contentsline {chapter}{\numberline {3}Theoretical background}{7}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Artificial neural networks}{7}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Convolutional neural networks}{8}{section.3.2}% 
@@ -31,15 +31,15 @@
 \contentsline {subsection}{\numberline {8.1.1}Subject X}{23}{subsection.8.1.1}% 
 \contentsline {subsection}{\numberline {8.1.2}Subject Y}{25}{subsection.8.1.2}% 
 \contentsline {section}{\numberline {8.2}Variational autoencoder}{27}{section.8.2}% 
-\contentsline {subsection}{\numberline {8.2.1}Subject X}{27}{subsection.8.2.1}% 
-\contentsline {subsection}{\numberline {8.2.2}Subject Y}{27}{subsection.8.2.2}% 
-\contentsline {section}{\numberline {8.3}VAE-GAN}{27}{section.8.3}% 
-\contentsline {subsection}{\numberline {8.3.1}Subject X}{27}{subsection.8.3.1}% 
-\contentsline {subsection}{\numberline {8.3.2}Subject Y}{27}{subsection.8.3.2}% 
-\contentsline {section}{\numberline {8.4}CycleGAN}{27}{section.8.4}% 
-\contentsline {subsection}{\numberline {8.4.1}Subject X}{27}{subsection.8.4.1}% 
-\contentsline {subsection}{\numberline {8.4.2}Subject Y}{27}{subsection.8.4.2}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{28}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{29}{chapter*.21}% 
-\contentsline {chapter}{List of Figures}{31}{chapter*.22}% 
-\contentsline {chapter}{List of Tables}{32}{chapter*.23}% 
+\contentsline {subsection}{\numberline {8.2.1}Subject X}{28}{subsection.8.2.1}% 
+\contentsline {subsection}{\numberline {8.2.2}Subject Y}{30}{subsection.8.2.2}% 
+\contentsline {section}{\numberline {8.3}VAE-GAN}{32}{section.8.3}% 
+\contentsline {subsection}{\numberline {8.3.1}Subject X}{32}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Subject Y}{32}{subsection.8.3.2}% 
+\contentsline {section}{\numberline {8.4}CycleGAN}{32}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Subject X}{32}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.2}Subject Y}{32}{subsection.8.4.2}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{33}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{34}{chapter*.30}% 
+\contentsline {chapter}{List of Figures}{37}{chapter*.31}% 
+\contentsline {chapter}{List of Tables}{38}{chapter*.32}% 
