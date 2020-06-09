@@ -8,30 +8,32 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces General idea of autoencoder\relax }}{11}{figure.caption.5}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Three steps of generating deepfakes\relax }}{12}{figure.caption.6}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Reparameterization trick\relax }}{13}{figure.caption.7}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces General idea of VAE-GAN\relax }}{14}{figure.caption.8}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces General idea of GAN\relax }}{14}{figure.caption.9}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{15}{figure.caption.8}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{16}{figure.caption.9}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Models trained without data augmentation\relax }}{17}{figure.caption.10}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{18}{figure.caption.11}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{16}{figure.caption.10}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{17}{figure.caption.11}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Models trained without data augmentation\relax }}{18}{figure.caption.12}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Models trained with data augmentation\relax }}{19}{figure.caption.13}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of AE encoder and decoder XY\relax }}{22}{figure.caption.12}% 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Sample 1 from subject X after 350 epochs\relax }}{23}{figure.caption.13}% 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Sample 2 from subject X after 350 epochs\relax }}{23}{figure.caption.14}% 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Sample 3 from subject X after 350 epochs\relax }}{24}{figure.caption.15}% 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Sample 4 from subject X after 350 epochs\relax }}{24}{figure.caption.16}% 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Sample 1 from subject Y after 350 epochs\relax }}{25}{figure.caption.17}% 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Sample 2 from subject Y after 350 epochs\relax }}{25}{figure.caption.18}% 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Sample 3 from subject Y after 350 epochs\relax }}{26}{figure.caption.19}% 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Sample 4 from subject Y after 350 epochs\relax }}{26}{figure.caption.20}% 
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Training process of VAE encoder and decoder XY\relax }}{27}{figure.caption.21}% 
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Sample 1 from subject X after 800 epochs\relax }}{28}{figure.caption.22}% 
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Sample 2 from subject X after 800 epochs\relax }}{28}{figure.caption.23}% 
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Sample 3 from subject X after 800 epochs\relax }}{29}{figure.caption.24}% 
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Sample 4 from subject X after 800 epochs\relax }}{29}{figure.caption.25}% 
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Sample 1 from subject Y after 600 epochs\relax }}{30}{figure.caption.26}% 
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Sample 2 from subject Y after 600 epochs\relax }}{30}{figure.caption.27}% 
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Sample 3 from subject Y after 600 epochs\relax }}{31}{figure.caption.28}% 
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Sample 4 from subject Y after 600 epochs\relax }}{31}{figure.caption.29}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Training process of AE encoder and decoder XY\relax }}{23}{figure.caption.14}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Sample 1 from subject X after 350 epochs\relax }}{24}{figure.caption.15}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Sample 2 from subject X after 350 epochs\relax }}{24}{figure.caption.16}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Sample 3 from subject X after 350 epochs\relax }}{25}{figure.caption.17}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Sample 4 from subject X after 350 epochs\relax }}{25}{figure.caption.18}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Sample 1 from subject Y after 350 epochs\relax }}{26}{figure.caption.19}% 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Sample 2 from subject Y after 350 epochs\relax }}{26}{figure.caption.20}% 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Sample 3 from subject Y after 350 epochs\relax }}{27}{figure.caption.21}% 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Sample 4 from subject Y after 350 epochs\relax }}{27}{figure.caption.22}% 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Training process of VAE encoder and decoder XY\relax }}{28}{figure.caption.23}% 
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Sample 1 from subject X after 800 epochs\relax }}{29}{figure.caption.24}% 
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Sample 2 from subject X after 800 epochs\relax }}{29}{figure.caption.25}% 
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Sample 3 from subject X after 800 epochs\relax }}{30}{figure.caption.26}% 
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Sample 4 from subject X after 800 epochs\relax }}{30}{figure.caption.27}% 
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Sample 1 from subject Y after 600 epochs\relax }}{31}{figure.caption.28}% 
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Sample 2 from subject Y after 600 epochs\relax }}{31}{figure.caption.29}% 
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Sample 3 from subject Y after 600 epochs\relax }}{32}{figure.caption.30}% 
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Sample 4 from subject Y after 600 epochs\relax }}{32}{figure.caption.31}% 
 \addvspace {10\p@ }
