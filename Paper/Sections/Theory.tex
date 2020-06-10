@@ -44,8 +44,17 @@ The main idea behind the convolutional layer is a mathematical operation called 
 \section{Types of machine learning algorithms}
 Depending on the problem specification and the form of related training data, different algorithms might be used for the process of artificial neural networks training. The most common types of training methods are: supervised, unsupervised, semi-supervised and reinforcement learning \cite{algorithms_types_bib} \cite{algorithms_types2_bib}.\\
 
-The most popular paradigm for machine learning, supervised learning, is applied in case of well-labeled data and is typically used for classification problems. This approach aims to find a function that maps an input to an output based on example input-output pairs. Thanks to the loss function, that measures the accuracy of the network by comparing its outcome with responding labels, model updates its weights to produce more accurate predictions. A significant disadvantage of this approach is the need for large amount of well-labeled data, necessary for training efficient networks. Another very popular type of training, perfect in case of unlabeled data, is unsupervised learning.
+The most popular paradigm for machine learning, supervised learning, is applied in case of well-labeled data and is typically used for classification problems. This approach aims to find a function that maps an input to an output based on example input-output pairs. Thanks to the loss function, that measures the accuracy of the network by comparing its outcome with responding labels, model updates its weights to produce more accurate predictions. A significant disadvantage of this approach is the need for large amount of well-labeled data, necessary for training efficient networks. Another very popular type of training, perfect in case of unlabeled data, is unsupervised learning also known as self-organization. The goal of this approach is to model the underlying structure or distribution in the data without human supervision (in form of labeled data). This learning type is best suited for clustering problems where certain relationships in data occur.\\
 
-\section{Haar feature-based cascade classifiers}
-\label{Haar feature-based cascade classifiers}
-As in section name
+A method that combines supervised and unsupervised learning is called semi-supervised learning. The idea is to pre-train models on small amount of labeled data and later use large amount of unlabeled data to increase accuracy and improve generalization skills of trained networks. Such approach allows to harness information from gathered data without spending a lot of time on labeling all of them.
+
+\section{Haar feature-based cascade classifier}
+\label{Haar feature-based cascade classifier}
+To be able to extract faces from videos, Haar feature-based cascade classifier was used. This detector, provided by OpenCV library \cite{opencv_haar_bib}, is based on Paul Viola's and Michael Jones's method \cite{Haar_bib} which involves detecting and marking in the image certain characteristic features of human face, in the form of black and white, adherent rectangles, as illustrated in the figure \ref{fig:haar_example}. Afterwards, thanks to the Viola-Jones method, out of many weak classifiers (features), a chain of filters is created (cascade), in which single filter is responsible for detecting single feature. If the given part of an image called window positively passes through all the filters of the cascade, than this window is considered to contain face.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth] {haar_example.png}
+\centering
+\caption{Example of Haar-like features detection}
+\label{fig:haar_example}
+\end{figure}

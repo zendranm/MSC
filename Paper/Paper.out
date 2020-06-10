@@ -8,7 +8,7 @@
 \BOOKMARK [1][-]{section.3.1}{Artificial neural networks}{chapter.3}% 8
 \BOOKMARK [1][-]{section.3.2}{Convolutional neural networks}{chapter.3}% 9
 \BOOKMARK [1][-]{section.3.3}{Types of machine learning algorithms}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.4}{Haar feature-based cascade classifiers}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.4}{Haar feature-based cascade classifier}{chapter.3}% 11
 \BOOKMARK [0][-]{chapter.4}{Deepfake methods}{}% 12
 \BOOKMARK [1][-]{section.4.1}{Autoencoder}{chapter.4}% 13
 \BOOKMARK [1][-]{section.4.2}{Variational autoencoder}{chapter.4}% 14
@@ -40,6 +40,5 @@
 \BOOKMARK [2][-]{subsection.8.4.1}{Subject X}{section.8.4}% 40
 \BOOKMARK [2][-]{subsection.8.4.2}{Subject Y}{section.8.4}% 41
 \BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 42
-\BOOKMARK [0][-]{chapter*.32}{Bibliography}{}% 43
-\BOOKMARK [0][-]{chapter*.33}{List of Figures}{}% 44
-\BOOKMARK [0][-]{chapter*.34}{List of Tables}{}% 45
+\BOOKMARK [0][-]{chapter*.42}{Bibliography}{}% 43
+\BOOKMARK [0][-]{chapter*.43}{List of Figures}{}% 44

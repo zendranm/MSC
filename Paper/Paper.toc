@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {3.1}Artificial neural networks}{7}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Convolutional neural networks}{8}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Types of machine learning algorithms}{10}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Haar feature-based cascade classifiers}{10}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Haar feature-based cascade classifier}{10}{section.3.4}% 
 \contentsline {chapter}{\numberline {4}Deepfake methods}{11}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Autoencoder}{11}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Variational autoencoder}{13}{section.4.2}% 
@@ -34,12 +34,11 @@
 \contentsline {subsection}{\numberline {8.2.1}Subject X}{29}{subsection.8.2.1}% 
 \contentsline {subsection}{\numberline {8.2.2}Subject Y}{31}{subsection.8.2.2}% 
 \contentsline {section}{\numberline {8.3}VAE-GAN}{33}{section.8.3}% 
-\contentsline {subsection}{\numberline {8.3.1}Subject X}{33}{subsection.8.3.1}% 
-\contentsline {subsection}{\numberline {8.3.2}Subject Y}{33}{subsection.8.3.2}% 
-\contentsline {section}{\numberline {8.4}CycleGAN}{33}{section.8.4}% 
-\contentsline {subsection}{\numberline {8.4.1}Subject X}{33}{subsection.8.4.1}% 
-\contentsline {subsection}{\numberline {8.4.2}Subject Y}{33}{subsection.8.4.2}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{34}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{35}{chapter*.32}% 
-\contentsline {chapter}{List of Figures}{38}{chapter*.33}% 
-\contentsline {chapter}{List of Tables}{39}{chapter*.34}% 
+\contentsline {subsection}{\numberline {8.3.1}Subject X}{34}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Subject Y}{36}{subsection.8.3.2}% 
+\contentsline {section}{\numberline {8.4}CycleGAN}{38}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Subject X}{38}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.2}Subject Y}{38}{subsection.8.4.2}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{39}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{40}{chapter*.42}% 
+\contentsline {chapter}{List of Figures}{44}{chapter*.43}% 

@@ -55,7 +55,7 @@ N.~Moriakov, J.~Adler, and J.~Teuwen, ``Kernel of cyclegan as a principle
 
 \bibitem{ctrl_shift_face_bib}
 \BIBentryALTinterwordspacing
-``{Ctrl Shift Face}.'' [Online]. Available:
+``{Ctrl Shift Face},'' (Accessed 10.06.2020). [Online]. Available:
   \url{https://www.youtube.com/channel/UCKpH0CKltc73e4wh0_pgL3g}
 \BIBentrySTDinterwordspacing
 
@@ -67,14 +67,14 @@ I.~Perov, D.~Gao, N.~Chervoniy, K.~Liu, S.~Marangonda, C.~Umé, M.~Dpfks, C.~S.
 
 \bibitem{faceswap_bib}
 \BIBentryALTinterwordspacing
-``{FaceSwap}.'' [Online]. Available:
+``{FaceSwap},'' (Accessed 10.06.2020). [Online]. Available:
   \url{https://github.com/deepfakes/faceswap}
 \BIBentrySTDinterwordspacing
 
 \bibitem{deep_learning_bib}
 \BIBentryALTinterwordspacing
 V.~Shah, ``Difference between artificial intelligence,machine learning and deep
-  learning,'' 2017. [Online]. Available:
+  learning,'' 2017, (Accessed 10.06.2020). [Online]. Available:
   \url{https://buzzrobot.com/difference-between-artificial-intelligence-machine-learning-and-deep-learning-ccfd779eca7b}
 \BIBentrySTDinterwordspacing
 
@@ -104,14 +104,14 @@ Z.~Li, W.~Yang, S.~Peng, and F.~Liu, ``A survey of convolutional neural
 \bibitem{convolution_operation_bib}
 \BIBentryALTinterwordspacing
 A.~Dertat, ``Applied deep learning - part 4: Convolutional neural networks,''
-  2017. [Online]. Available:
+  2017, (Accessed 10.06.2020). [Online]. Available:
   \url{https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
 \BIBentrySTDinterwordspacing
 
 \bibitem{algorithms_types_bib}
 \BIBentryALTinterwordspacing
-D.~Fumo, ``Types of machine learning algorithms you should know,'' 2017.
-  [Online]. Available:
+D.~Fumo, ``Types of machine learning algorithms you should know,'' 2017,
+  (Accessed 10.06.2020). [Online]. Available:
   \url{https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861}
 \BIBentrySTDinterwordspacing
 
@@ -123,14 +123,24 @@ T.~O. Ayodele, ``Types of machine learning algorithms,'' in \emph{New Advances
   \url{https://doi.org/10.5772/9385}
 \BIBentrySTDinterwordspacing
 
+\bibitem{opencv_haar_bib}
+\BIBentryALTinterwordspacing
+``{Face Detection using Haar Cascades},'' (Accessed 10.06.2020). [Online].
+  Available:
+  \url{https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Haar_bib}
+P.~Viola and M.~Jones, ``Robust real-time object detection,'' vol.~57, 01 2001.
+
 \bibitem{kl_divergence_bib}
 S.~Kullback and R.~A. Leibler, ``On information and sufficiency,'' \emph{Ann.
   Math. Statist.}, vol.~22, no.~1, pp. 79--86, 1951.
 
 \bibitem{reparameterization_trick_bib}
 \BIBentryALTinterwordspacing
-D.~Kamath, ``Generating new faces with variational autoencoders,'' 2020.
-  [Online]. Available:
+D.~Kamath, ``Generating new faces with variational autoencoders,'' 2020,
+  (Accessed 10.06.2020). [Online]. Available:
   \url{https://towardsdatascience.com/generating-new-faces-with-variational-autoencoders-d13cfcb5f0a8}
 \BIBentrySTDinterwordspacing
 
@@ -141,7 +151,7 @@ S.~Odaibo, ``Tutorial: Deriving the standard variational autoencoder (vae) loss
 \bibitem{dataset_creation_bib}
 \BIBentryALTinterwordspacing
 ``{[GUIDE] - Celebrity faceset/dataset creation - How to create celebrity
-  facesets}.'' [Online]. Available:
+  facesets},'' (Accessed 10.06.2020). [Online]. Available:
   \url{https://mrdeepfakes.com/forums/thread-guide-celebrity-faceset-dataset-creation-how-to-create-celebrity-facesets}
 \BIBentrySTDinterwordspacing
 
@@ -159,45 +169,50 @@ D.~Kuhlman, \emph{A Python Book: Beginning Python, Advanced Python, and Python
 
 \bibitem{anaconda_bib}
 \BIBentryALTinterwordspacing
-``{Anaconda}.'' [Online]. Available: \url{https://www.anaconda.com/about-us}
+``{Anaconda},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://www.anaconda.com/about-us}
 \BIBentrySTDinterwordspacing
 
 \bibitem{opencv_bib}
 \BIBentryALTinterwordspacing
-``{OpenCV}.'' [Online]. Available: \url{https://opencv.org/about/}
+``{OpenCV},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://opencv.org/about/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{numpy_bib}
 \BIBentryALTinterwordspacing
-``{NumPy}.'' [Online]. Available: \url{https://numpy.org/}
+``{NumPy},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://numpy.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{colab_bib}
 \BIBentryALTinterwordspacing
-``{Google Colaboratory}.'' [Online]. Available:
+``{Google Colaboratory},'' (Accessed 10.06.2020). [Online]. Available:
   \url{https://research.google.com/colaboratory/faq.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tensorflow_bib}
 \BIBentryALTinterwordspacing
-``{TensorFlow}.'' [Online]. Available: \url{https://www.tensorflow.org/}
+``{TensorFlow},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://www.tensorflow.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{keras_bib}
 \BIBentryALTinterwordspacing
-``{Keras: The Python Deep Learning library}.'' [Online]. Available:
-  \url{https://keras.io/}
+``{Keras: The Python Deep Learning library},'' (Accessed 10.06.2020). [Online].
+  Available: \url{https://keras.io/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{teslak80_bib}
 \BIBentryALTinterwordspacing
-``{NVIDIA TESLA K80}.'' [Online]. Available:
+``{NVIDIA TESLA K80},'' (Accessed 10.06.2020). [Online]. Available:
   \url{https://www.nvidia.com/en-gb/data-center/tesla-k80/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{cuda_bib}
 \BIBentryALTinterwordspacing
-``{CUDA}.'' [Online]. Available: \url{https://developer.nvidia.com/cuda-zone}
+``{CUDA},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://developer.nvidia.com/cuda-zone}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

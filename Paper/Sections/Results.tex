@@ -177,8 +177,77 @@ Results presented below are in the same form as in previous section, generated o
 \end{figure}
 
 \section{VAE-GAN}
+Training process for VAE-GANs method were similar as the one described in senction \ref{Results_Autoencoder}. The encoder and decoder XY were trained were trained for 200 epochs, as shown in figure \ref{fig:vaegan_loss}. Decoder X and decoder Y were trained for 3000 epochs and during training process, trained models were saved every 100 epochs. Later, to generate final results, the most effective models were selected.
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {vaegan_loss.png}
+\centering
+\caption{Training process of VAE-GAN encoder and decoder XY}
+\label{fig:vaegan_loss}
+\end{figure}
+
+Results presented below are in the same form as in previous section, generated over the same set of images. Deepfakes obtained from VAE-GAN method are significantly different than those from sections \ref{Results_Autoencoder} and \ref{Results_Variational_Autoencoder}. First difference is that obtained images are much less blurry and have more details characteristic for imitated person. Although the head position and overall resemblance are correctly depicted in majority of cases, face deformations of certain degree are noticeable.
+
 \subsection{Subject X}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_x_scene_1_2000.png}
+\centering
+\caption{Sample 1 from subject X after 2000 epochs}
+\label{fig:vaegan_x_scene_1_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_x_scene_2_2000.png}
+\centering
+\caption{Sample 2 from subject X after 2000 epochs}
+\label{fig:vaegan_x_scene_2_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_x_scene_3_2000.png}
+\centering
+\caption{Sample 3 from subject X after 2000 epochs}
+\label{fig:vaegan_x_scene_3_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_x_scene_4_2000.png}
+\centering
+\caption{Sample 4 from subject X after 2000 epochs}
+\label{fig:vaegan_x_scene_4_2000}
+\end{figure}
+
 \subsection{Subject Y}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_y_scene_1_2000.png}
+\centering
+\caption{Sample 1 from subject Y after 2000 epochs}
+\label{fig:vaegan_y_scene_1_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_y_scene_2_2000.png}
+\centering
+\caption{Sample 2 from subject Y after 2000 epochs}
+\label{fig:vaegan_y_scene_2_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_y_scene_3_2000.png}
+\centering
+\caption{Sample 3 from subject Y after 2000 epochs}
+\label{fig:vaegan_y_scene_3_2000}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=10cm] {Results/vaegan_y_scene_4_2000.png}
+\centering
+\caption{Sample 4 from subject Y after 2000 epochs}
+\label{fig:vaegan_y_scene_4_2000}
+\end{figure}
+
 \section{CycleGAN}
 \subsection{Subject X}
 \subsection{Subject Y}

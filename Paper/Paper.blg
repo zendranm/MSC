@@ -5,7 +5,8 @@ Database file #1: ./Sections/Bibliography.bib
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing publisher in artificial_neuron_bib
+Warning--empty booktitle in Haar_bib
 Warning--missing publisher in python_bib
 
 Done.
-(There were 2 warnings)
+(There were 3 warnings)
