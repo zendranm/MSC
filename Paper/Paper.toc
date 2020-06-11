@@ -36,9 +36,9 @@
 \contentsline {section}{\numberline {8.3}VAE-GAN}{33}{section.8.3}% 
 \contentsline {subsection}{\numberline {8.3.1}Subject X}{34}{subsection.8.3.1}% 
 \contentsline {subsection}{\numberline {8.3.2}Subject Y}{36}{subsection.8.3.2}% 
-\contentsline {section}{\numberline {8.4}CycleGAN}{38}{section.8.4}% 
+\contentsline {section}{\numberline {8.4}CycleGAN}{37}{section.8.4}% 
 \contentsline {subsection}{\numberline {8.4.1}Subject X}{38}{subsection.8.4.1}% 
 \contentsline {subsection}{\numberline {8.4.2}Subject Y}{38}{subsection.8.4.2}% 
 \contentsline {chapter}{\numberline {9}Conclusions}{39}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{40}{chapter*.42}% 
-\contentsline {chapter}{List of Figures}{44}{chapter*.43}% 
+\contentsline {chapter}{Bibliography}{40}{chapter*.43}% 
+\contentsline {chapter}{List of Figures}{44}{chapter*.44}% 
