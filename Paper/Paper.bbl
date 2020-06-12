@@ -223,4 +223,10 @@ D.~Kuhlman, \emph{A Python Book: Beginning Python, Advanced Python, and Python
   \url{https://developer.nvidia.com/cuda-zone}
 \BIBentrySTDinterwordspacing
 
+\bibitem{horse2zebra_bib}
+\BIBentryALTinterwordspacing
+``{horse2zebra},'' (Accessed 10.06.2020). [Online]. Available:
+  \url{https://www.kaggle.com/arnaud58/horse2zebra}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
