@@ -22,23 +22,23 @@
 \contentsline {section}{\numberline {6.1}Software and Libraries}{20}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Hardware}{20}{section.6.2}% 
 \contentsline {chapter}{\numberline {7}Networks implementation}{21}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Autoencoder}{21}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Variational autoencoder}{21}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}VAE-GAN}{21}{section.7.3}% 
-\contentsline {section}{\numberline {7.4}CycleGAN}{21}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Results}{22}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Autoencoder}{23}{section.8.1}% 
-\contentsline {subsection}{\numberline {8.1.1}Subject X}{24}{subsection.8.1.1}% 
-\contentsline {subsection}{\numberline {8.1.2}Subject Y}{26}{subsection.8.1.2}% 
-\contentsline {section}{\numberline {8.2}Variational autoencoder}{28}{section.8.2}% 
-\contentsline {subsection}{\numberline {8.2.1}Subject X}{29}{subsection.8.2.1}% 
-\contentsline {subsection}{\numberline {8.2.2}Subject Y}{31}{subsection.8.2.2}% 
-\contentsline {section}{\numberline {8.3}VAE-GAN}{33}{section.8.3}% 
-\contentsline {subsection}{\numberline {8.3.1}Subject X}{34}{subsection.8.3.1}% 
-\contentsline {subsection}{\numberline {8.3.2}Subject Y}{36}{subsection.8.3.2}% 
-\contentsline {section}{\numberline {8.4}CycleGAN}{38}{section.8.4}% 
-\contentsline {subsection}{\numberline {8.4.1}Subject X}{39}{subsection.8.4.1}% 
-\contentsline {subsection}{\numberline {8.4.2}Subject Y}{41}{subsection.8.4.2}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{43}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{44}{chapter*.52}% 
-\contentsline {chapter}{List of Figures}{48}{chapter*.53}% 
+\contentsline {section}{\numberline {7.1}Autoencoder}{22}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Variational autoencoder}{23}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}VAE-GAN}{24}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}CycleGAN}{26}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Results}{28}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Autoencoder}{29}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}Subject X}{30}{subsection.8.1.1}% 
+\contentsline {subsection}{\numberline {8.1.2}Subject Y}{32}{subsection.8.1.2}% 
+\contentsline {section}{\numberline {8.2}Variational autoencoder}{34}{section.8.2}% 
+\contentsline {subsection}{\numberline {8.2.1}Subject X}{35}{subsection.8.2.1}% 
+\contentsline {subsection}{\numberline {8.2.2}Subject Y}{37}{subsection.8.2.2}% 
+\contentsline {section}{\numberline {8.3}VAE-GAN}{39}{section.8.3}% 
+\contentsline {subsection}{\numberline {8.3.1}Subject X}{40}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Subject Y}{42}{subsection.8.3.2}% 
+\contentsline {section}{\numberline {8.4}CycleGAN}{44}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Subject X}{45}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.2}Subject Y}{47}{subsection.8.4.2}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{49}{chapter.9}% 
+\contentsline {chapter}{Bibliography}{50}{chapter*.63}% 
+\contentsline {chapter}{List of Figures}{54}{chapter*.64}% 
