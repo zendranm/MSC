@@ -229,4 +229,11 @@ D.~Kuhlman, \emph{A Python Book: Beginning Python, Advanced Python, and Python
   \url{https://www.kaggle.com/arnaud58/horse2zebra}
 \BIBentrySTDinterwordspacing
 
+\bibitem{cycleGAN_6_bib}
+\BIBentryALTinterwordspacing
+S.~Wolf, ``Cyclegan: Learning to translate images (without paired training
+  data),'' 2018, (Accessed 10.06.2020). [Online]. Available:
+  \url{https://towardsdatascience.com/cyclegan-learning-to-translate-images-without-paired-training-data-5b4e93862c8d}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

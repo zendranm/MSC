@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  13 JUN 2020 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  16 JUN 2020 23:02
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -341,20 +341,20 @@ LaTeX Warning: Label `fig:cyclegan_generator' multiply defined.
 )
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 \AtBeginShipoutBox=\box31
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
@@ -367,7 +367,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 28.
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -379,9 +379,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
  (Paper.out) (Paper.out)
 \@outlinefile=\write3
 \openout3 = `Paper.out'.
@@ -430,15 +430,15 @@ Package caption Info: End \AtBeginDocument code.
 \@tempoddsidemargin=\skip56
 \@tempevensidemargin=\skip57
 
-Overfull \hbox (8.88072pt too wide) in paragraph at lines 32--32
+Overfull \hbox (8.88072pt too wide) in paragraph at lines 31--31
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -447,7 +447,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \@tempheightspec=\skip60
 \@tempheighttspec=\skip61
 
-Overfull \hbox (2.90689pt too wide) in paragraph at lines 32--32
+Overfull \hbox (2.90689pt too wide) in paragraph at lines 31--31
 []\T1/cmr/m/sc/17.28 Specialization:| 
  []
 
@@ -460,7 +460,7 @@ Overfull \hbox (2.90689pt too wide) in paragraph at lines 32--32
 e.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...ne {8.2.2}Subject Y}{37}{subsection.8.2.2}
+l.35 ...ne {8.2.2}Subject Y}{38}{subsection.8.2.2}
                                                   % [1
 
 ])
@@ -490,43 +490,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
  ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
 ) (Sections/Theory.tex [6]
 Chapter 3.
-<./Graphics/deep_learning_chart.png, id=286, 732.7375pt x 323.2075pt>
+<./Graphics/deep_learning_chart.png, id=296, 732.7375pt x 323.2075pt>
 File: ./Graphics/deep_learning_chart.png Graphic file (type png)
 <use ./Graphics/deep_learning_chart.png>
 Package pdftex.def Info: ./Graphics/deep_learning_chart.png  used on input line
  6.
 (pdftex.def)             Requested size: 227.62204pt x 100.40042pt.
-<./Graphics/artificial_neuron_model.png, id=292, 1393.205pt x 585.18625pt>
+<./Graphics/artificial_neuron_model.png, id=302, 1393.205pt x 585.18625pt>
 File: ./Graphics/artificial_neuron_model.png Graphic file (type png)
 <use ./Graphics/artificial_neuron_model.png>
 Package pdftex.def Info: ./Graphics/artificial_neuron_model.png  used on input 
@@ -544,7 +544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-<./Graphics/convolution.png, id=315, 825.0825pt x 2531.4575pt>
+<./Graphics/convolution.png, id=325, 825.0825pt x 2531.4575pt>
 File: ./Graphics/convolution.png Graphic file (type png)
 <use ./Graphics/convolution.png>
 Package pdftex.def Info: ./Graphics/convolution.png  used on input line 38.
@@ -569,14 +569,14 @@ Overfull \hbox (2.50102pt too wide) in paragraph at lines 49--50
 -ing is called semi-supervised
  []
 
-<./Graphics/haar_example.png, id=337, 1925.9955pt x 538.4115pt>
+<./Graphics/haar_example.png, id=347, 1925.9955pt x 538.4115pt>
 File: ./Graphics/haar_example.png Graphic file (type png)
 <use ./Graphics/haar_example.png>
 Package pdftex.def Info: ./Graphics/haar_example.png  used on input line 56.
 (pdftex.def)             Requested size: 455.24408pt x 127.25789pt.
 ) (Sections/Deepfake_methods.tex [10 <./Graphics/haar_example.png>]
 Chapter 4.
-<./Graphics/autoencoder_general_idea.png, id=351, 800.9925pt x 264.99pt>
+<./Graphics/autoencoder_general_idea.png, id=361, 800.9925pt x 264.99pt>
 File: ./Graphics/autoencoder_general_idea.png Graphic file (type png)
 <use ./Graphics/autoencoder_general_idea.png>
 Package pdftex.def Info: ./Graphics/autoencoder_general_idea.png  used on input
@@ -585,19 +585,19 @@ Package pdftex.def Info: ./Graphics/autoencoder_general_idea.png  used on input
 [11
 
  <./Graphics/autoencoder_general_idea.png>]
-<./Graphics/deepfake_idea_1.png, id=365, 885.3075pt x 405.515pt>
+<./Graphics/deepfake_idea_1.png, id=375, 885.3075pt x 405.515pt>
 File: ./Graphics/deepfake_idea_1.png Graphic file (type png)
 <use ./Graphics/deepfake_idea_1.png>
 Package pdftex.def Info: ./Graphics/deepfake_idea_1.png  used on input line 25.
 
 (pdftex.def)             Requested size: 341.43306pt x 156.39291pt.
-<./Graphics/deepfake_idea_2.png, id=366, 885.3075pt x 429.605pt>
+<./Graphics/deepfake_idea_2.png, id=376, 885.3075pt x 429.605pt>
 File: ./Graphics/deepfake_idea_2.png Graphic file (type png)
 <use ./Graphics/deepfake_idea_2.png>
 Package pdftex.def Info: ./Graphics/deepfake_idea_2.png  used on input line 31.
 
 (pdftex.def)             Requested size: 341.43306pt x 165.68358pt.
-<./Graphics/deepfake_idea_3.png, id=367, 887.315pt x 429.605pt>
+<./Graphics/deepfake_idea_3.png, id=377, 887.315pt x 429.605pt>
 File: ./Graphics/deepfake_idea_3.png Graphic file (type png)
 <use ./Graphics/deepfake_idea_3.png>
 Package pdftex.def Info: ./Graphics/deepfake_idea_3.png  used on input line 37.
@@ -605,13 +605,13 @@ Package pdftex.def Info: ./Graphics/deepfake_idea_3.png  used on input line 37.
 (pdftex.def)             Requested size: 341.43306pt x 165.30338pt.
  [12 <./Graphics/deepfake_idea_1.png> <./Graphics/deepfake_idea_2.png> <./Graph
 ics/deepfake_idea_3.png>]
-<./Graphics/before_reparameterization.png, id=384, 606.265pt x 244.915pt>
+<./Graphics/before_reparameterization.png, id=394, 606.265pt x 244.915pt>
 File: ./Graphics/before_reparameterization.png Graphic file (type png)
 <use ./Graphics/before_reparameterization.png>
 Package pdftex.def Info: ./Graphics/before_reparameterization.png  used on inpu
 t line 79.
 (pdftex.def)             Requested size: 204.85844pt x 82.75801pt.
-<./Graphics/after_reparameterization.png, id=385, 604.2575pt x 242.9075pt>
+<./Graphics/after_reparameterization.png, id=395, 604.2575pt x 242.9075pt>
 File: ./Graphics/after_reparameterization.png Graphic file (type png)
 <use ./Graphics/after_reparameterization.png>
 Package pdftex.def Info: ./Graphics/after_reparameterization.png  used on input
@@ -620,13 +620,13 @@ Package pdftex.def Info: ./Graphics/after_reparameterization.png  used on input
 
 [13 <./Graphics/before_reparameterization.png> <./Graphics/after_reparameteriza
 tion.png>]
-<./Graphics/vaegan_general_idea.png, id=408, 1047.915pt x 429.605pt>
+<./Graphics/vaegan_general_idea.png, id=418, 1047.915pt x 429.605pt>
 File: ./Graphics/vaegan_general_idea.png Graphic file (type png)
 <use ./Graphics/vaegan_general_idea.png>
 Package pdftex.def Info: ./Graphics/vaegan_general_idea.png  used on input line
  107.
 (pdftex.def)             Requested size: 256.0748pt x 104.97554pt.
-<./Graphics/gan_general_idea.png, id=410, 1206.5075pt x 544.0325pt>
+<./Graphics/gan_general_idea.png, id=420, 1206.5075pt x 544.0325pt>
 File: ./Graphics/gan_general_idea.png Graphic file (type png)
 <use ./Graphics/gan_general_idea.png>
 Package pdftex.def Info: ./Graphics/gan_general_idea.png  used on input line 13
@@ -642,7 +642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<./Graphics/cyclegan_general_idea.png, id=428, 1407.2575pt x 345.29pt>
+<./Graphics/cyclegan_general_idea.png, id=438, 1407.2575pt x 345.29pt>
 File: ./Graphics/cyclegan_general_idea.png Graphic file (type png)
 <use ./Graphics/cyclegan_general_idea.png>
 Package pdftex.def Info: ./Graphics/cyclegan_general_idea.png  used on input li
@@ -655,7 +655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<./Graphics/voxceleb2_sample.png, id=442, 1112.958pt x 331.7193pt>
+<./Graphics/voxceleb2_sample.png, id=452, 1112.958pt x 331.7193pt>
 File: ./Graphics/voxceleb2_sample.png Graphic file (type png)
 <use ./Graphics/voxceleb2_sample.png>
 Package pdftex.def Info: ./Graphics/voxceleb2_sample.png  used on input line 9.
@@ -668,26 +668,26 @@ Package pdftex.def Info: ./Graphics/voxceleb2_sample.png  used on input line 9.
 LaTeX Warning: Reference `Haar feature-based cascade classifiers' on page 17 un
 defined on input line 24.
 
-<./Graphics/dicaprio_sample.png, id=454, 462.528pt x 462.528pt>
+<./Graphics/dicaprio_sample.png, id=464, 462.528pt x 462.528pt>
 File: ./Graphics/dicaprio_sample.png Graphic file (type png)
 <use ./Graphics/dicaprio_sample.png>
 Package pdftex.def Info: ./Graphics/dicaprio_sample.png  used on input line 35.
 
 (pdftex.def)             Requested size: 204.85844pt x 204.86095pt.
-<./Graphics/downeyjr_sample.png, id=455, 462.528pt x 462.528pt>
+<./Graphics/downeyjr_sample.png, id=465, 462.528pt x 462.528pt>
 File: ./Graphics/downeyjr_sample.png Graphic file (type png)
 <use ./Graphics/downeyjr_sample.png>
 Package pdftex.def Info: ./Graphics/downeyjr_sample.png  used on input line 41.
 
 (pdftex.def)             Requested size: 204.85844pt x 204.86095pt.
 [17 <./Graphics/dicaprio_sample.png> <./Graphics/downeyjr_sample.png>]
-<./Graphics/no_augmentation_normal.png, id=470, 243.91125pt x 323.40825pt>
+<./Graphics/no_augmentation_normal.png, id=480, 243.91125pt x 323.40825pt>
 File: ./Graphics/no_augmentation_normal.png Graphic file (type png)
 <use ./Graphics/no_augmentation_normal.png>
 Package pdftex.def Info: ./Graphics/no_augmentation_normal.png  used on input l
 ine 57.
 (pdftex.def)             Requested size: 204.85844pt x 271.63145pt.
-<./Graphics/no_augmentation_fliped.png, id=471, 241.50224pt x 322.806pt>
+<./Graphics/no_augmentation_fliped.png, id=481, 241.50224pt x 322.806pt>
 File: ./Graphics/no_augmentation_fliped.png Graphic file (type png)
 <use ./Graphics/no_augmentation_fliped.png>
 Package pdftex.def Info: ./Graphics/no_augmentation_fliped.png  used on input l
@@ -698,13 +698,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<./Graphics/augmentation_normal.png, id=476, 243.91125pt x 324.0105pt>
+<./Graphics/augmentation_normal.png, id=486, 243.91125pt x 324.0105pt>
 File: ./Graphics/augmentation_normal.png Graphic file (type png)
 <use ./Graphics/augmentation_normal.png>
 Package pdftex.def Info: ./Graphics/augmentation_normal.png  used on input line
  79.
 (pdftex.def)             Requested size: 204.85844pt x 272.1373pt.
-<./Graphics/augmentation_fliped.png, id=477, 243.91125pt x 325.215pt>
+<./Graphics/augmentation_fliped.png, id=487, 243.91125pt x 325.215pt>
 File: ./Graphics/augmentation_fliped.png Graphic file (type png)
 <use ./Graphics/augmentation_fliped.png>
 Package pdftex.def Info: ./Graphics/augmentation_fliped.png  used on input line
@@ -733,31 +733,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<./Graphics/activation_function_1.png, id=517, 803.0pt x 803.0pt>
+<./Graphics/activation_function_1.png, id=527, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_1.png Graphic file (type png)
 <use ./Graphics/activation_function_1.png>
 Package pdftex.def Info: ./Graphics/activation_function_1.png  used on input li
 ne 10.
 (pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
-<./Graphics/activation_function_2.png, id=518, 803.0pt x 803.0pt>
+<./Graphics/activation_function_2.png, id=528, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_2.png Graphic file (type png)
 <use ./Graphics/activation_function_2.png>
 Package pdftex.def Info: ./Graphics/activation_function_2.png  used on input li
 ne 16.
 (pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
-<./Graphics/activation_function_3.png, id=519, 803.0pt x 803.0pt>
+<./Graphics/activation_function_3.png, id=529, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_3.png Graphic file (type png)
 <use ./Graphics/activation_function_3.png>
 Package pdftex.def Info: ./Graphics/activation_function_3.png  used on input li
 ne 23.
 (pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
-<./Graphics/activation_function_4.png, id=520, 803.0pt x 803.0pt>
+<./Graphics/activation_function_4.png, id=530, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_4.png Graphic file (type png)
 <use ./Graphics/activation_function_4.png>
 Package pdftex.def Info: ./Graphics/activation_function_4.png  used on input li
 ne 29.
 (pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
-<./Graphics/Models/ae_encoder.png, id=521, 966.61125pt x 1026.83624pt>
+<./Graphics/Models/ae_encoder.png, id=531, 966.61125pt x 1026.83624pt>
 File: ./Graphics/Models/ae_encoder.png Graphic file (type png)
 <use ./Graphics/Models/ae_encoder.png>
 Package pdftex.def Info: ./Graphics/Models/ae_encoder.png  used on input line 4
@@ -767,26 +767,26 @@ Package pdftex.def Info: ./Graphics/Models/ae_encoder.png  used on input line 4
 
  <./Graphics/activation_function_1.png> <./Graphics/activation_function_2.png> 
 <./Graphics/activation_function_3.png> <./Graphics/activation_function_4.png>]
-<./Graphics/Models/ae_decoder.png, id=531, 966.61125pt x 849.1725pt>
+<./Graphics/Models/ae_decoder.png, id=541, 966.61125pt x 849.1725pt>
 File: ./Graphics/Models/ae_decoder.png Graphic file (type png)
 <use ./Graphics/Models/ae_decoder.png>
 Package pdftex.def Info: ./Graphics/Models/ae_decoder.png  used on input line 4
 7.
 (pdftex.def)             Requested size: 284.52756pt x 249.9595pt.
-<./Graphics/Models/vae_encoder.png, id=532, 966.61125pt x 1207.51125pt>
+<./Graphics/Models/vae_encoder.png, id=542, 966.61125pt x 1207.51125pt>
 File: ./Graphics/Models/vae_encoder.png Graphic file (type png)
 <use ./Graphics/Models/vae_encoder.png>
 Package pdftex.def Info: ./Graphics/Models/vae_encoder.png  used on input line 
 56.
 (pdftex.def)             Requested size: 284.52756pt x 355.43887pt.
  [22 <./Graphics/Models/ae_encoder.png> <./Graphics/Models/ae_decoder.png>]
-<./Graphics/Models/vae_decoder.png, id=541, 966.61125pt x 849.1725pt>
+<./Graphics/Models/vae_decoder.png, id=551, 966.61125pt x 849.1725pt>
 File: ./Graphics/Models/vae_decoder.png Graphic file (type png)
 <use ./Graphics/Models/vae_decoder.png>
 Package pdftex.def Info: ./Graphics/Models/vae_decoder.png  used on input line 
 63.
 (pdftex.def)             Requested size: 284.52756pt x 249.9595pt.
-<./Graphics/Models/vaegan_encoder.png, id=542, 966.61125pt x 1207.51125pt>
+<./Graphics/Models/vaegan_encoder.png, id=552, 966.61125pt x 1207.51125pt>
 File: ./Graphics/Models/vaegan_encoder.png Graphic file (type png)
 <use ./Graphics/Models/vaegan_encoder.png>
 Package pdftex.def Info: ./Graphics/Models/vaegan_encoder.png  used on input li
@@ -794,13 +794,13 @@ ne 72.
 (pdftex.def)             Requested size: 284.52756pt x 355.43887pt.
 
 [23 <./Graphics/Models/vae_encoder.png> <./Graphics/Models/vae_decoder.png>]
-<./Graphics/Models/vaegan_generator.png, id=551, 966.61125pt x 849.1725pt>
+<./Graphics/Models/vaegan_generator.png, id=561, 966.61125pt x 849.1725pt>
 File: ./Graphics/Models/vaegan_generator.png Graphic file (type png)
 <use ./Graphics/Models/vaegan_generator.png>
 Package pdftex.def Info: ./Graphics/Models/vaegan_generator.png  used on input 
 line 79.
 (pdftex.def)             Requested size: 284.52756pt x 249.9595pt.
-<./Graphics/Models/vaegan_discriminator.png, id=552, 966.61125pt x 1029.8475pt>
+<./Graphics/Models/vaegan_discriminator.png, id=562, 966.61125pt x 1029.8475pt>
 
 File: ./Graphics/Models/vaegan_discriminator.png Graphic file (type png)
 <use ./Graphics/Models/vaegan_discriminator.png>
@@ -810,20 +810,20 @@ put line 86.
 
 [24 <./Graphics/Models/vaegan_encoder.png> <./Graphics/Models/vaegan_generator.
 png>]
-<./Graphics/Models/cyclegan_generator.png, id=562, 1207.51125pt x 1481.535pt>
+<./Graphics/Models/cyclegan_generator.png, id=572, 1207.51125pt x 1481.535pt>
 File: ./Graphics/Models/cyclegan_generator.png Graphic file (type png)
 <use ./Graphics/Models/cyclegan_generator.png>
 Package pdftex.def Info: ./Graphics/Models/cyclegan_generator.png  used on inpu
 t line 95.
 (pdftex.def)             Requested size: 369.88582pt x 453.82297pt.
  [25 <./Graphics/Models/vaegan_discriminator.png>]
-<./Graphics/Models/cyclegan_residual.png, id=569, 966.61125pt x 307.1475pt>
+<./Graphics/Models/cyclegan_residual.png, id=579, 966.61125pt x 307.1475pt>
 File: ./Graphics/Models/cyclegan_residual.png Graphic file (type png)
 <use ./Graphics/Models/cyclegan_residual.png>
 Package pdftex.def Info: ./Graphics/Models/cyclegan_residual.png  used on input
  line 102.
 (pdftex.def)             Requested size: 284.52756pt x 90.41087pt.
-<./Graphics/Models/cyclegan_discriminator.png, id=570, 969.6225pt x 1029.8475pt
+<./Graphics/Models/cyclegan_discriminator.png, id=580, 969.6225pt x 1029.8475pt
 >
 File: ./Graphics/Models/cyclegan_discriminator.png Graphic file (type png)
 <use ./Graphics/Models/cyclegan_discriminator.png>
@@ -847,13 +847,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 [28
 
 ]
-<./Graphics/ae_decoderXY_loss.png, id=590, 491.8375pt x 467.7475pt>
+<./Graphics/ae_decoderXY_loss.png, id=600, 491.8375pt x 467.7475pt>
 File: ./Graphics/ae_decoderXY_loss.png Graphic file (type png)
 <use ./Graphics/ae_decoderXY_loss.png>
 Package pdftex.def Info: ./Graphics/ae_decoderXY_loss.png  used on input line 1
 7.
 (pdftex.def)             Requested size: 227.62204pt x 216.47256pt.
-<./Graphics/ae_decoderXY_acc.png, id=591, 484.81125pt x 467.7475pt>
+<./Graphics/ae_decoderXY_acc.png, id=601, 484.81125pt x 467.7475pt>
 File: ./Graphics/ae_decoderXY_acc.png Graphic file (type png)
 <use ./Graphics/ae_decoderXY_acc.png>
 Package pdftex.def Info: ./Graphics/ae_decoderXY_acc.png  used on input line 23
@@ -864,20 +864,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<./Graphics/Results/ae_x_scene1_350.png, id=593, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_x_scene1_350.png, id=603, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_x_scene1_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_x_scene1_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_x_scene1_350.png  used on input 
 line 38.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
 [29 <./Graphics/ae_decoderXY_loss.png> <./Graphics/ae_decoderXY_acc.png>]
-<./Graphics/Results/ae_x_scene2_350.png, id=602, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_x_scene2_350.png, id=612, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_x_scene2_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_x_scene2_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_x_scene2_350.png  used on input 
 line 45.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/ae_x_scene3_350.png, id=603, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_x_scene3_350.png, id=613, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_x_scene3_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_x_scene3_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_x_scene3_350.png  used on input 
@@ -886,13 +886,13 @@ line 52.
 
 [30 <./Graphics/Results/ae_x_scene1_350.png> <./Graphics/Results/ae_x_scene2_35
 0.png>]
-<./Graphics/Results/ae_x_scene4_350.png, id=614, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_x_scene4_350.png, id=624, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_x_scene4_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_x_scene4_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_x_scene4_350.png  used on input 
 line 59.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/ae_y_scene1_350.png, id=615, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_y_scene1_350.png, id=625, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_y_scene1_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_y_scene1_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_y_scene1_350.png  used on input 
@@ -900,13 +900,13 @@ line 68.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [31 <./Graphics/Results/ae_x_scene3_350.png> <./Graphics/Results/ae_x_scene4_3
 50.png>]
-<./Graphics/Results/ae_y_scene2_350.png, id=624, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_y_scene2_350.png, id=634, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_y_scene2_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_y_scene2_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_y_scene2_350.png  used on input 
 line 75.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/ae_y_scene3_350.png, id=625, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_y_scene3_350.png, id=635, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_y_scene3_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_y_scene3_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_y_scene3_350.png  used on input 
@@ -914,7 +914,7 @@ line 82.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [32 <./Graphics/Results/ae_y_scene1_350.png> <./Graphics/Results/ae_y_scene2_3
 50.png>]
-<./Graphics/Results/ae_y_scene4_350.png, id=633, 505.89pt x 513.117pt>
+<./Graphics/Results/ae_y_scene4_350.png, id=643, 505.89pt x 513.117pt>
 File: ./Graphics/Results/ae_y_scene4_350.png Graphic file (type png)
 <use ./Graphics/Results/ae_y_scene4_350.png>
 Package pdftex.def Info: ./Graphics/Results/ae_y_scene4_350.png  used on input 
@@ -922,32 +922,32 @@ line 89.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [33 <./Graphics/Results/ae_y_scene3_350.png> <./Graphics/Results/ae_y_scene4_3
 50.png>]
-<./Graphics/vae_decoderXY_loss.png, id=644, 487.8225pt x 467.7475pt>
+<./Graphics/vae_decoderXY_loss.png, id=654, 487.8225pt x 467.7475pt>
 File: ./Graphics/vae_decoderXY_loss.png Graphic file (type png)
 <use ./Graphics/vae_decoderXY_loss.png>
 Package pdftex.def Info: ./Graphics/vae_decoderXY_loss.png  used on input line 
 103.
 (pdftex.def)             Requested size: 227.62204pt x 218.25688pt.
-<./Graphics/vae_decoderXY_acc.png, id=645, 484.81125pt x 467.7475pt>
+<./Graphics/vae_decoderXY_acc.png, id=655, 484.81125pt x 467.7475pt>
 File: ./Graphics/vae_decoderXY_acc.png Graphic file (type png)
 <use ./Graphics/vae_decoderXY_acc.png>
 Package pdftex.def Info: ./Graphics/vae_decoderXY_acc.png  used on input line 1
 09.
 (pdftex.def)             Requested size: 227.62204pt x 219.61295pt.
-<./Graphics/Results/vae_x_scene_1_800.png, id=647, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_x_scene_1_800.png, id=657, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_x_scene_1_800.png Graphic file (type png)
 <use ./Graphics/Results/vae_x_scene_1_800.png>
 Package pdftex.def Info: ./Graphics/Results/vae_x_scene_1_800.png  used on inpu
 t line 122.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [34 <./Graphics/vae_decoderXY_loss.png> <./Graphics/vae_decoderXY_acc.png>]
-<./Graphics/Results/vae_x_scene_2_800.png, id=655, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_x_scene_2_800.png, id=665, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_x_scene_2_800.png Graphic file (type png)
 <use ./Graphics/Results/vae_x_scene_2_800.png>
 Package pdftex.def Info: ./Graphics/Results/vae_x_scene_2_800.png  used on inpu
 t line 129.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vae_x_scene_3_800.png, id=656, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_x_scene_3_800.png, id=666, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_x_scene_3_800.png Graphic file (type png)
 <use ./Graphics/Results/vae_x_scene_3_800.png>
 Package pdftex.def Info: ./Graphics/Results/vae_x_scene_3_800.png  used on inpu
@@ -955,13 +955,13 @@ t line 136.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [35 <./Graphics/Results/vae_x_scene_1_800.png> <./Graphics/Results/vae_x_scene
 _2_800.png>]
-<./Graphics/Results/vae_x_scene_4_800.png, id=665, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_x_scene_4_800.png, id=675, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_x_scene_4_800.png Graphic file (type png)
 <use ./Graphics/Results/vae_x_scene_4_800.png>
 Package pdftex.def Info: ./Graphics/Results/vae_x_scene_4_800.png  used on inpu
 t line 143.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vae_y_scene_1_600.png, id=666, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_y_scene_1_600.png, id=676, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_y_scene_1_600.png Graphic file (type png)
 <use ./Graphics/Results/vae_y_scene_1_600.png>
 Package pdftex.def Info: ./Graphics/Results/vae_y_scene_1_600.png  used on inpu
@@ -969,13 +969,13 @@ t line 152.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [36 <./Graphics/Results/vae_x_scene_3_800.png> <./Graphics/Results/vae_x_scene
 _4_800.png>]
-<./Graphics/Results/vae_y_scene_2_600.png, id=676, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_y_scene_2_600.png, id=686, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_y_scene_2_600.png Graphic file (type png)
 <use ./Graphics/Results/vae_y_scene_2_600.png>
 Package pdftex.def Info: ./Graphics/Results/vae_y_scene_2_600.png  used on inpu
 t line 159.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vae_y_scene_3_600.png, id=677, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_y_scene_3_600.png, id=687, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_y_scene_3_600.png Graphic file (type png)
 <use ./Graphics/Results/vae_y_scene_3_600.png>
 Package pdftex.def Info: ./Graphics/Results/vae_y_scene_3_600.png  used on inpu
@@ -983,7 +983,7 @@ t line 166.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [37 <./Graphics/Results/vae_y_scene_1_600.png> <./Graphics/Results/vae_y_scene
 _2_600.png>]
-<./Graphics/Results/vae_y_scene_4_600.png, id=686, 505.89pt x 513.117pt>
+<./Graphics/Results/vae_y_scene_4_600.png, id=696, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vae_y_scene_4_600.png Graphic file (type png)
 <use ./Graphics/Results/vae_y_scene_4_600.png>
 Package pdftex.def Info: ./Graphics/Results/vae_y_scene_4_600.png  used on inpu
@@ -991,12 +991,12 @@ t line 173.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [38 <./Graphics/Results/vae_y_scene_3_600.png> <./Graphics/Results/vae_y_scene
 _4_600.png>]
-<./Graphics/vaegan_loss.png, id=697, 481.8pt x 467.7475pt>
+<./Graphics/vaegan_loss.png, id=707, 481.8pt x 467.7475pt>
 File: ./Graphics/vaegan_loss.png Graphic file (type png)
 <use ./Graphics/vaegan_loss.png>
 Package pdftex.def Info: ./Graphics/vaegan_loss.png  used on input line 183.
 (pdftex.def)             Requested size: 284.52756pt x 276.2327pt.
-<./Graphics/Results/vaegan_x_scene_1_2000.png, id=700, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_x_scene_1_2000.png, id=710, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_x_scene_1_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_x_scene_1_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_x_scene_1_2000.png  used on 
@@ -1004,13 +1004,13 @@ input line 194.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
 
 [39 <./Graphics/vaegan_loss.png>]
-<./Graphics/Results/vaegan_x_scene_2_2000.png, id=707, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_x_scene_2_2000.png, id=717, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_x_scene_2_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_x_scene_2_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_x_scene_2_2000.png  used on 
 input line 201.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vaegan_x_scene_3_2000.png, id=708, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_x_scene_3_2000.png, id=718, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_x_scene_3_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_x_scene_3_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_x_scene_3_2000.png  used on 
@@ -1018,13 +1018,13 @@ input line 208.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [40 <./Graphics/Results/vaegan_x_scene_1_2000.png> <./Graphics/Results/vaegan_
 x_scene_2_2000.png>]
-<./Graphics/Results/vaegan_x_scene_4_2000.png, id=717, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_x_scene_4_2000.png, id=727, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_x_scene_4_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_x_scene_4_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_x_scene_4_2000.png  used on 
 input line 215.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vaegan_y_scene_1_2000.png, id=718, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_y_scene_1_2000.png, id=728, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_y_scene_1_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_y_scene_1_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_y_scene_1_2000.png  used on 
@@ -1032,13 +1032,13 @@ input line 224.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [41 <./Graphics/Results/vaegan_x_scene_3_2000.png> <./Graphics/Results/vaegan_
 x_scene_4_2000.png>]
-<./Graphics/Results/vaegan_y_scene_2_2000.png, id=727, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_y_scene_2_2000.png, id=737, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_y_scene_2_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_y_scene_2_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_y_scene_2_2000.png  used on 
 input line 231.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
-<./Graphics/Results/vaegan_y_scene_3_2000.png, id=728, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_y_scene_3_2000.png, id=738, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_y_scene_3_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_y_scene_3_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_y_scene_3_2000.png  used on 
@@ -1047,7 +1047,7 @@ input line 238.
 
 [42 <./Graphics/Results/vaegan_y_scene_1_2000.png> <./Graphics/Results/vaegan_y
 _scene_2_2000.png>]
-<./Graphics/Results/vaegan_y_scene_4_2000.png, id=738, 505.89pt x 513.117pt>
+<./Graphics/Results/vaegan_y_scene_4_2000.png, id=748, 505.89pt x 513.117pt>
 File: ./Graphics/Results/vaegan_y_scene_4_2000.png Graphic file (type png)
 <use ./Graphics/Results/vaegan_y_scene_4_2000.png>
 Package pdftex.def Info: ./Graphics/Results/vaegan_y_scene_4_2000.png  used on 
@@ -1055,7 +1055,7 @@ input line 245.
 (pdftex.def)             Requested size: 284.52756pt x 288.59628pt.
  [43 <./Graphics/Results/vaegan_y_scene_3_2000.png> <./Graphics/Results/vaegan_
 y_scene_4_2000.png>]
-<./Graphics/Results/cyclegan_zebra2horse_029675.png, id=750, 379.4175pt x 513.1
+<./Graphics/Results/cyclegan_zebra2horse_029675.png, id=760, 379.4175pt x 513.1
 17pt>
 File: ./Graphics/Results/cyclegan_zebra2horse_029675.png Graphic file (type png
 )
@@ -1064,21 +1064,21 @@ Package pdftex.def Info: ./Graphics/Results/cyclegan_zebra2horse_029675.png  us
 ed on input line 255.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
  [44 <./Graphics/Results/cyclegan_zebra2horse_029675.png>]
-<./Graphics/Results/cyclegan_x_scene_1_13000.png, id=759, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_x_scene_1_13000.png, id=769, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_x_scene_1_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_x_scene_1_13000.png>
 Package pdftex.def Info: ./Graphics/Results/cyclegan_x_scene_1_13000.png  used 
 on input line 267.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
-<./Graphics/Results/cyclegan_x_scene_2_13000.png, id=760, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_x_scene_2_13000.png, id=770, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_x_scene_2_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_x_scene_2_13000.png>
 Package pdftex.def Info: ./Graphics/Results/cyclegan_x_scene_2_13000.png  used 
 on input line 274.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
-<./Graphics/Results/cyclegan_x_scene_3_13000.png, id=761, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_x_scene_3_13000.png, id=771, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_x_scene_3_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_x_scene_3_13000.png>
@@ -1087,14 +1087,14 @@ on input line 281.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
  [45 <./Graphics/Results/cyclegan_x_scene_1_13000.png> <./Graphics/Results/cycl
 egan_x_scene_2_13000.png>]
-<./Graphics/Results/cyclegan_x_scene_4_13000.png, id=770, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_x_scene_4_13000.png, id=780, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_x_scene_4_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_x_scene_4_13000.png>
 Package pdftex.def Info: ./Graphics/Results/cyclegan_x_scene_4_13000.png  used 
 on input line 288.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
-<./Graphics/Results/cyclegan_y_scene_1_13000.png, id=771, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_y_scene_1_13000.png, id=781, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_y_scene_1_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_y_scene_1_13000.png>
@@ -1103,14 +1103,14 @@ on input line 297.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
  [46 <./Graphics/Results/cyclegan_x_scene_3_13000.png> <./Graphics/Results/cycl
 egan_x_scene_4_13000.png>]
-<./Graphics/Results/cyclegan_y_scene_2_13000.png, id=780, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_y_scene_2_13000.png, id=790, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_y_scene_2_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_y_scene_2_13000.png>
 Package pdftex.def Info: ./Graphics/Results/cyclegan_y_scene_2_13000.png  used 
 on input line 304.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
-<./Graphics/Results/cyclegan_y_scene_3_13000.png, id=781, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_y_scene_3_13000.png, id=791, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_y_scene_3_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_y_scene_3_13000.png>
@@ -1119,7 +1119,7 @@ on input line 311.
 (pdftex.def)             Requested size: 216.2411pt x 292.44058pt.
  [47 <./Graphics/Results/cyclegan_y_scene_1_13000.png> <./Graphics/Results/cycl
 egan_y_scene_2_13000.png>]
-<./Graphics/Results/cyclegan_y_scene_4_13000.png, id=790, 379.4175pt x 513.117p
+<./Graphics/Results/cyclegan_y_scene_4_13000.png, id=800, 379.4175pt x 513.117p
 t>
 File: ./Graphics/Results/cyclegan_y_scene_4_13000.png Graphic file (type png)
 <use ./Graphics/Results/cyclegan_y_scene_4_13000.png>
@@ -1129,30 +1129,60 @@ on input line 318.
 ) (Sections/Conclusions.tex [48 <./Graphics/Results/cyclegan_y_scene_3_13000.pn
 g> <./Graphics/Results/cyclegan_y_scene_4_13000.png>]
 Chapter 9.
-) (Paper.bbl [49
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[49
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+) (Paper.bbl [50]
 Overfull \hbox (31.86848pt too wide) in paragraph at lines 76--80
 \T1/cmr/m/n/12 dierence-[]between-[]articial-[]intelligence-[]machine-[]learn
 ing-[]and-[]deep-[]learning-[]ccfd779eca7b$[][] 
  []
 
-[50
+[51
 
-] [51]) [52] (Paper.lof [53
+] [52]) [53] (Paper.lof [54
 
 ])
 \tf@lof=\write5
 \openout5 = `Paper.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [55]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `Paper.out' has not changed.
-(rerunfilecheck)             Checksum: 053F2E823084E5C5C9C51CBC67302320;2705.
+(rerunfilecheck)             Checksum: 9493630BC4E92796181D3A067A013072;2824.
 
 
 LaTeX Warning: There were undefined references.
@@ -1160,13 +1190,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 8381 strings out of 492946
- 135458 string characters out of 3126267
- 219476 words of memory out of 3000000
- 11849 multiletter control sequences out of 15000+200000
+ 8393 strings out of 492946
+ 135641 string characters out of 3126267
+ 219620 words of memory out of 3000000
+ 11856 multiletter control sequences out of 15000+200000
  19683 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,40p,1378b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1196,9 +1226,9 @@ ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
 rs/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb>
-Output written on Paper.pdf (55 pages, 39730909 bytes).
+Output written on Paper.pdf (56 pages, 39741690 bytes).
 PDF statistics:
- 1494 PDF objects out of 1728 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 713 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 729 words of extra memory for PDF output out of 10000 (max. 10000000)
 

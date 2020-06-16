@@ -40,5 +40,7 @@
 \contentsline {subsection}{\numberline {8.4.1}Subject X}{45}{subsection.8.4.1}% 
 \contentsline {subsection}{\numberline {8.4.2}Subject Y}{47}{subsection.8.4.2}% 
 \contentsline {chapter}{\numberline {9}Conclusions}{49}{chapter.9}% 
-\contentsline {chapter}{Bibliography}{50}{chapter*.63}% 
-\contentsline {chapter}{List of Figures}{54}{chapter*.64}% 
+\contentsline {section}{\numberline {9.1}Results analysis}{49}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Summary}{50}{section.9.2}% 
+\contentsline {chapter}{Bibliography}{51}{chapter*.64}% 
+\contentsline {chapter}{List of Figures}{55}{chapter*.65}% 

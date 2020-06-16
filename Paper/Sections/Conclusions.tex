@@ -1,2 +1,36 @@
 \chapter{Conclusions}
 \label{Conclusions}
+\section{Results analysis}
+Final results of each implemented method were analyzed in terms of five main factors, which are: overall resemblance, correct head position, image sharpness, correct facial expression and lack of artifacts or deformations in the image. Correct depiction of all of those features results in obtaining high-quality deepfake. Mentioned aspects are summarized in table \ref{tab:summary_of_results}, where for each technique, presence (+) or absence (-) of each factor are marked.
+
+\begin{table}[H]
+\centering
+\begin{tabular}[c]{|c|c|c|c|c|} \hline
+\textbf{Feature} & \textbf{AE} & \textbf{VAE} & \textbf{VAE-GAN} & \textbf{CycleGAN}\\ \hline
+Overall resemblance & + & + & + & -\\ \hline
+Head position & + & + & + & +\\ \hline
+Sharpness & - & - & + & +\\ \hline
+Facial expression & - & - & - & +\\ \hline
+Lack of artifacts/deformations & - & + & - & -\\ \hline
+\end{tabular}
+\caption{Summary of results}
+\label{tab:summary_of_results}
+\end{table}
+
+As shown in the table above, none of the methods resulted in perfect-like deepfakes. A common feature of all techniques is correct depiction of head position, and the most problematic aspects were facial expression, and image artifacts or deformations. It is assumed that ``overall resemblance'' is the most important factor, as without it, generated images cannot be qualified as successful deepfakes, even if the rest of features is correctly depicted. This is the case of CycleGAN method, which produced the worst results in this research, despite being the only technique that correctly recreated original facial expressions.\\
+
+Autoencoders method resulted in relatively believable deepfakes. Its shortages come from the fact that the encoder part reproduces given input by ``memorizing'' it. This characteristic, combined with dataset consisting of only two people, causes the encoder part to overfit, even in very short (epoch-wise) training. It causes the latent face to contain certain features characteristic only for original person, which cannot be later decoded by opposite-domain decoder. As a result, some artifacts or small deformations are present in the final outcome.\\
+
+Variational autoencoders method resulted in slightly better outcomes than autoencoders technique, as it has all the advantages of AEs but do not generate images with artifacts nor deformations. This improvement arises from unique
+properties of VAEs method, which produces feature maps that follow a unit Gaussian distribution. This characteristic enhance the generalization ability of the encoder part in comparison with autoencoders method.\\
+
+In variational autoencoders generative adversarial networks method, absence of artifacts and deformations was ``sacrificed'' for the sake of better depiction of details characteristic for deepfaked person. In this cases, again, the generalization ability of the encoder network was partially lost due to the dataset property, and the fact that GAN parts of the model, in order to deceive the discriminator network, ``forced'' the encoder to produce feature maps that contain certain features characteristic only for original person.\\
+
+CycleGAN method, in case of this research, generated the worst results. Such outcome was a surprise, as in case of horse to zebra conversion, the same technique proved to be very successful. It was concluded, and later confirmed \cite{cycleGAN_6_bib}, that CycleGAN approach is not well-suited for geometric changes and shape transformations. Such limitations make this technique useless in terms of deepfake generation, as color and texture conversion alone, are not sufficient for that purpose.
+
+\section{Summary}
+Each discussed method of deepfake generation was successfully implemented and tested according to the assumptions described in section \ref{Objective and assumptions}. None of them resulted in truly believable deepfakes, but the best outcomes were achieved in case of variational autoencoders technique. It seems that the VAE-GAN method is the one with the greatest potential, as in case of feature maps with better quality, this approach could provide deceivingly resembling fakes.\\
+
+Main difficulty encountered in the implementation process was assessing the results obtained from each method. As there is no numerical way of measuring the quality of images obtained from deepfake algorithms, it was difficult at times, to decide if applied fine-tuning of network's parameters resulted in better or worse effects. Another encountered obstacle, was the fact, that there is no precise recipe for constructing dataset. There are a lot of factors that should be taken into a consideration when collecting data for training purposes and the complexity of this problem could be a material for a research paper on its own.\\
+
+Further improvement of effects provided by methods based on autoencoders approach (AE, VAE, VAE-GAN) might be achieved by improving generalization ability of the encoder part. This might be done by training the encoder network on data containing images of hundreds or even thousands different people, with wide range of facial expressions. Latent faces generated  by such encoder, processed by decoders trained on targeted data might result in high-quality deepfakes, especially in case of GAN-based generators.

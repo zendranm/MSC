@@ -110,7 +110,7 @@ As the name suggests, variational autoencoder generative adversarial network is 
 \label{fig:vaegan_general_idea}
 \end{figure}
 
-The whole potential of this method comes from the discriminator part. This network, during the training process, learns to distinguish real images (pictures before encoding) from generated ones. On the other side, generator network ``tries'' to deceive the discriminator by producing better and better fake images, improving the quality of final deepfakes. General idea of GAN training process is ilustrated in figure \ref{fig:gan_general_idea}. To train VAE-GAN model, three different loss functions, applied to corresponding networks, are required: encoder loss, generator loss and discriminator loss:
+The whole potential of this method comes from the discriminator part. This network, during the training process, learns to distinguish real images (pictures before encoding) from generated ones. On the other side, generator network ``tries'' to deceive the discriminator by producing better and better fake images, improving the quality of final deepfakes. General idea of GAN training process is illustrated in figure \ref{fig:gan_general_idea}. To train VAE-GAN model, three different loss functions, applied to corresponding networks, are required: encoder loss, generator loss and discriminator loss:
 %
 \begin{equation}
 \label{eq:encoder_loss}
