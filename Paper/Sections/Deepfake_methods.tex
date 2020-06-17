@@ -46,7 +46,7 @@ Generating deepfakes using autoencoders approach consists of three major steps. 
 \newpage
 \section{Variational autoencoder}
 \label{Variational_autoencoder}
-Unlike basic autoencoders, which purpose is to reproduce given input by ``memorizing'' it, variational autoencoders aim to produce latent vectors (feature maps) that follow a unit Gaussian distribution \cite{variational_bayes_bib}. Such modification allows to generate new images by sampling a latent vector from the unit Gaussian distribution and pass it as an input of the decoder network. The goal in VAE model training is to optimize the loss function given in equation \ref{eq:vae_loss} \cite{vae_loss_bib}. First component of this function is a reconstruction loss \(\mathcal{L}_{rec}\), which, by comparing pixels from image \(x\), encoded to a latent vector \(z = Encoder(x) \sim q(z|x)\), and reconstructed image \(\bar{x} = Decoder(z) \sim p(x|z)\), measures expected marginal log-likelihood of the observations in \(x\). Second component, so called Kullback–Leibler divergence \cite{kl_divergence_bib}, measures the extent to which one probability distribution differs from another. Applying KL divergence to VAE loss function allows to control distribution of the latent vector \(z\).
+Unlike basic autoencoders, which purpose is to reproduce given input by ``memorizing'' it, variational autoencoders aim to produce latent vectors that follow a unit Gaussian distribution \cite{variational_bayes_bib}. Such modification allows to generate new images by sampling a latent vector from the unit Gaussian distribution and pass it as an input of the decoder network. The goal in VAE model training is to optimize the loss function given in equation \ref{eq:vae_loss} \cite{vae_loss_bib}. First component of this function is a reconstruction loss \(\mathcal{L}_{rec}\), which, by comparing pixels from image \(x\), encoded to a latent vector \(z = Encoder(x) \sim q(z|x)\), and reconstructed image \(\bar{x} = Decoder(z) \sim p(x|z)\), measures expected (\(E\)) marginal log-likelihood of the observations in \(x\). Second component, so called Kullback–Leibler divergence (\(D_{kl}\)) \cite{kl_divergence_bib}, measures the extent to which one probability distribution differs from another. Applying KL divergence to VAE loss function allows to control distribution of the latent vector \(z\).
 %
 \begin{equation}
 \label{eq:vae_loss}
@@ -86,7 +86,7 @@ where \(\epsilon\) is sampled from a multivariate standard normal distribution (
   \caption{Nodes after reparameterization}
   \label{subfig:after_reparameterization}
 \end{subfigure}
-\caption{Reparameterization trick}
+\caption{Reparameterization trick based on \cite{vae_introduction_bib}}
 \label{fig:reparameterization_trick}
 \end{figure}
 
@@ -106,7 +106,7 @@ As the name suggests, variational autoencoder generative adversarial network is 
 \begin{figure}[H]
 \includegraphics[width=9cm] {vaegan_general_idea.png}
 \centering
-\caption{General idea of VAE-GAN}
+\caption{General idea of VAE-GAN based on \cite{autoencoding_beyond_pixels_bib}}
 \label{fig:vaegan_general_idea}
 \end{figure}
 
@@ -156,7 +156,7 @@ General idea of CycleGAN is to have both generators \(G,F\) to convert images fr
 \begin{figure}[H]
 \includegraphics[width=\textwidth] {cyclegan_general_idea.png}
 \centering
-\caption{General idea of CycleGAN}
+\caption{General idea of CycleGAN based on \cite{cycleGAN_5_bib}}
 \label{fig:cyclegan_general_idea}
 \end{figure}
 

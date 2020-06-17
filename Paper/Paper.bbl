@@ -144,6 +144,10 @@ D.~Kamath, ``Generating new faces with variational autoencoders,'' 2020,
   \url{https://towardsdatascience.com/generating-new-faces-with-variational-autoencoders-d13cfcb5f0a8}
 \BIBentrySTDinterwordspacing
 
+\bibitem{vae_introduction_bib}
+D.~P. Kingma and M.~Welling, ``An introduction to variational autoencoders,''
+  2019.
+
 \bibitem{kl_divergence_loss_bib}
 S.~Odaibo, ``Tutorial: Deriving the standard variational autoencoder (vae) loss
   function,'' 2019.
