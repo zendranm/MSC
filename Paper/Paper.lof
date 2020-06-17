@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Reparameterization trick based on \cite {vae_introduction_bib}\relax }}{13}{figure.caption.8}% 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces General idea of VAE-GAN based on \cite {autoencoding_beyond_pixels_bib}\relax }}{14}{figure.caption.9}% 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces General idea of GAN\relax }}{14}{figure.caption.10}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces General idea of CycleGAN based on \cite {cycleGAN_5_bib}\relax }}{15}{figure.caption.11}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces General idea of CycleGAN based on \cite {cycleGAN_1_bib}\relax }}{15}{figure.caption.11}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Sample images from VoxCeleb2 dataset\relax }}{16}{figure.caption.12}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Sample images of pre-processed data\relax }}{17}{figure.caption.13}% 
