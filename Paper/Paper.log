@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  17 JUN 2020 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.5)  19 JUN 2020 20:08
 entering extended mode
 **./Paper.tex
 (Paper.tex
@@ -485,19 +485,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -506,18 +506,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
 [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
  ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 ) (Sections/Theory.tex [6]
 Chapter 3.
 <./Graphics/deep_learning_chart.png, id=296, 732.7375pt x 323.2075pt>
@@ -738,25 +733,25 @@ File: ./Graphics/activation_function_1.png Graphic file (type png)
 <use ./Graphics/activation_function_1.png>
 Package pdftex.def Info: ./Graphics/activation_function_1.png  used on input li
 ne 10.
-(pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
+(pdftex.def)             Requested size: 131.11238pt x 131.10472pt.
 <./Graphics/activation_function_2.png, id=534, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_2.png Graphic file (type png)
 <use ./Graphics/activation_function_2.png>
 Package pdftex.def Info: ./Graphics/activation_function_2.png  used on input li
 ne 16.
-(pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
+(pdftex.def)             Requested size: 131.11238pt x 131.10472pt.
 <./Graphics/activation_function_3.png, id=535, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_3.png Graphic file (type png)
 <use ./Graphics/activation_function_3.png>
 Package pdftex.def Info: ./Graphics/activation_function_3.png  used on input li
 ne 23.
-(pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
+(pdftex.def)             Requested size: 131.11238pt x 131.10472pt.
 <./Graphics/activation_function_4.png, id=536, 803.0pt x 803.0pt>
 File: ./Graphics/activation_function_4.png Graphic file (type png)
 <use ./Graphics/activation_function_4.png>
 Package pdftex.def Info: ./Graphics/activation_function_4.png  used on input li
 ne 29.
-(pdftex.def)             Requested size: 143.4034pt x 143.39426pt.
+(pdftex.def)             Requested size: 131.11238pt x 131.10472pt.
 <./Graphics/Models/ae_encoder.png, id=537, 966.61125pt x 1026.83624pt>
 File: ./Graphics/Models/ae_encoder.png Graphic file (type png)
 <use ./Graphics/Models/ae_encoder.png>
@@ -1195,11 +1190,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
 Here is how much of TeX's memory you used:
  8393 strings out of 492946
  135653 string characters out of 3126267
- 219729 words of memory out of 3000000
+ 220729 words of memory out of 3000000
  11856 multiletter control sequences out of 15000+200000
  19683 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,42p,1378b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,42p,1553b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecti1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecbx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -1226,7 +1221,7 @@ ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
 rs/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb>
-Output written on Paper.pdf (56 pages, 39744010 bytes).
+Output written on Paper.pdf (56 pages, 39744228 bytes).
 PDF statistics:
  1532 PDF objects out of 1728 (max. 8388607)
  224 named destinations out of 1000 (max. 500000)
