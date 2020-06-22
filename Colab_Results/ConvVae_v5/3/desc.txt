@@ -1,2 +1,0 @@
-coode_size = 5000
-epoki 40/4/4
