@@ -94,7 +94,7 @@ As might be observed in the figures below, autoencoders method generates deepfak
 
 \section{Variational autoencoder}
 \label{Results_Variational_Autoencoder}
-Training process for variational autoencoders method were the same as the one described in section \ref{Results_Autoencoder}. The encoder and decoder XY were trained were trained for 150 epochs, as shown in figure \ref{fig:vae_decoderXY}. Decoder X and decoder Y were trained for 800 epochs and during the training process, trained models were saved every 50 epochs. Later, to generate final results, the most effective models were selected.
+Training process for variational autoencoders method were the same as the one described in section \ref{Results_Autoencoder}. The encoder and decoder XY were trained for 150 epochs, as shown in figure \ref{fig:vae_decoderXY}. Decoder X and decoder Y were trained for 800 epochs and during the training process, trained models were saved every 50 epochs. Later, to generate final results, the most effective models were selected.
 
 \begin{figure}[H]
 \centering
@@ -177,7 +177,7 @@ Results presented below are in the same form as in previous section, generated o
 \end{figure}
 
 \section{VAE-GAN}
-Training process for VAE-GANs method were similar as the one described in section \ref{Results_Autoencoder}. The encoder and decoder XY were trained were trained for 200 epochs, as shown in figure \ref{fig:vaegan_loss}. Decoder X and decoder Y were trained for 3000 epochs and during the training process, trained models were saved every 100 epochs. Later, to generate final results, the most effective models were selected.
+Training process for VAE-GANs method were similar as the one described in section \ref{Results_Autoencoder}. The encoder and decoder XY were trained for 200 epochs, as shown in figure \ref{fig:vaegan_loss}. Decoder X and decoder Y were trained for 3000 epochs and during the training process, trained models were saved every 100 epochs. Later, to generate final results, the most effective models were selected.
 
 \begin{figure}[H]
 \includegraphics[width=10cm] {vaegan_loss.png}
@@ -186,7 +186,7 @@ Training process for VAE-GANs method were similar as the one described in sectio
 \label{fig:vaegan_loss}
 \end{figure}
 
-Results presented below are in the same form as in previous section, generated over the same set of images. Deepfakes obtained from VAE-GAN method are significantly different than those from sections \ref{Results_Autoencoder} and \ref{Results_Variational_Autoencoder}. First difference is that obtained images are much less blurry and have more details characteristic for imitated person. Although the head position and overall resemblance are correctly depicted in majority of cases, face deformations of certain degree are noticeable.
+Results presented below are in the same form as in previous section, generated over the same set of images. Deepfakes obtained from VAE-GAN method are significantly different than those from sections \ref{Results_Autoencoder} and \ref{Results_Variational_Autoencoder}. First difference is that obtained images are much less blurry, and have more details characteristic for imitated person. Although the head position and overall resemblance are correctly depicted in majority of cases, face deformations of certain degree are noticeable.
 
 \subsection{Subject X}
 
@@ -249,7 +249,7 @@ Results presented below are in the same form as in previous section, generated o
 \end{figure}
 
 \section{CycleGAN}
-In case of CycleGAN method, the whole structure was trained for 20000 epochs. During the training process, trained models were saved every 500 epochs, and later, to generate final results, the most effective models were selected. As this approach to generating deepfakes is far different from the other three techniques, the decision of optimal training duration was based on how many epochs the same network needs to solve different, well-tested image-to-image translation problem. Therefore, before training models on face-based dataset, CycleGAN networks were trained to convert horses to zebras. To achieve this, a ``horse2zebra'' dataset was chosen, which consists of approximately 2600 images of horses and zebras \cite{horse2zebra_bib}. To ensure comparability of training results, images were scaled to the same sizes as pictures from dataset described in section \ref{Data pre-processing}. After 20000 epochs, the most effective models were chosen to generate results, which are presented in figure \ref{fig:cyclegan_zebra2horse_029675}. First column from the left contains original images to be converted into images from opposite domain. Second column presents actual deepfakes, and the last one, contains images of deepfakes converted back to its original domain.
+In case of CycleGAN method, the whole structure was trained for 20000 epochs. During the training process, trained models were saved every 500 epochs, and later, to generate final results, the most effective models were selected. As this approach to deepfakes generation is far different from the other three techniques, the decision of optimal training duration was based on how many epochs the same network needs to solve different, well-tested image-to-image translation problem. Therefore, before training models on face-based dataset, CycleGAN networks were trained to convert horses to zebras. To achieve this, a ``horse2zebra'' dataset was chosen, which consists of approximately 2600 images of horses and zebras \cite{horse2zebra_bib}. To ensure comparability of training results, images were scaled to the same sizes as pictures from dataset described in section \ref{Data pre-processing}. After 20000 epochs, the most effective models were chosen to generate results, which are presented in figure \ref{fig:cyclegan_zebra2horse_029675}. First column from the left contains original images to be converted into images from opposite domain. Second column presents actual deepfakes, and the last one, contains images of deepfakes converted back to its original domain.
 
 \begin{figure}[H]
 \includegraphics[width=7.6cm] {Results/cyclegan_zebra2horse_029675.png}
